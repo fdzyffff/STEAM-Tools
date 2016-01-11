@@ -1,0 +1,12 @@
+This a script to compare the Rates from wbm(web based monitoring) and steam (*.csv file)
+
+You can copy this folder to a CMSSW area and then after cmsenv do:
+
+source set.(c)sh
+
+python compareWBMTriggerRates2.py 256843 --steamRates test1111.csv --steamL1Rates test2222.csv --targetLumi 2000 --minLS 1083 --maxLS 1191
+
+Then you have two csv files with all the hlt rate and l1 rate comparisons.
+
+You can also change some parameters in compareWBMTriggerRates2.py.
+
