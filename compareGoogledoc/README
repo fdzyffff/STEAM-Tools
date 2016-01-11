@@ -1,0 +1,10 @@
+This script is a tool to compare different rate results from *.tsv files.
+
+You can get the comparison by type:
+
+python GoogleDocFill.py
+
+You can set the input files by opening the GoogleDocFill.py and change raleted parameters.
+You can also set some parameters in order to suit the different columns of your own input files.
+
+If there are some changes about the same path's name in the two input files, you can add the this path to name_change_map.py. So that the path which has different name in both files will be compared as one path.

@@ -1,0 +1,28 @@
+##################################################
+voms-proxy-init -voms cms
+###################################crab2######################
+source /afs/cern.ch/cms/ccs/wm/scripts/Crab/crab.sh
+crab -create
+crab -submit -c jobdirectory
+crab -status -c jobdirectory
+crab -getoutput 1,2,... -c jobdirectory
+crab -submit 1,2,... -c jobdirectory
+crab -kill 1,2,... -c jobdirectory
+crab -uploadLog <jobid>
+###################################crab3#####################
+source /cvmfs/cms.cern.ch/crab3/crab.sh
+crab submit -c crabconfigfile
+crab status jobdirectory --long
+crab getoutput  crab_projects/crab_20150216_PHYS14_TT_20bx25/
+crab getoutput  crab_projects/crab_20150216_PHYS14_TT_20bx25/ --jobids 1-20
+#############################xroottd#################################
+source /afs/cern.ch/cms/cmsset_default.sh
+source /afs/cern.ch/cms/LCG/LCG-2/UI/cms_ui_env.sh
+###############################DAS################################
+das_client.py --query "site dataset =/QCD_Pt-30to80_EMEnriched_Tune4C_13TeV_pythia8/Phys14DR-AVE30BX50_tsg_castor_PHYS14_ST_V1-v1/GEN-SIM-RAW"
+commands.txt
+///////BRIL///////////////////////
+///////////Prerequisite///////////////
+export PATH=$HOME/.local/bin:/afs/cern.ch/cms/lumi/brilconda-1.0.3/bin:$PATH
+//////////////install brilws in cern///////////////////////
+pip install --install-option="--prefix=$HOME/.local" brilws
