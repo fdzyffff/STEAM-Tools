@@ -1,0 +1,10 @@
+Path,L1Path,L1Prescale(2e33),Steam L1path,Steam L1Prescale,WBM hltPrescale(2e33),Steam hltPrescale,,Data Rate (Hz),,,Steam Rate (Hz),,,Steam Rate hltPrescaled(Hz),,,Bias(data-steam)
+HLT_Ele27_WPLoose_Gsf,L1_SingleIsoEG20 OR L1_SingleIsoEG20er,1 | 4,L1_SingleIsoEG20er OR L1_SingleEG20 OR L1_SingleEG25, 4|1|1,1,1,49.34,+/-,0.05,49.41,+/-,0.71,49.41,+/-,0.71,0.14%,+/-,1.44%
+HLT_IsoMu20,L1_SingleMu16,1,L1_SingleMu16, 1,1,1,26.04,+/-,0.03,29.47,+/-,0.55,29.47,+/-,0.55,11.62%,+/-,1.65%
+HLT_IsoMu22,L1_SingleMu20,1,L1_SingleMu20, 1,1,1,21.86,+/-,0.03,24.19,+/-,0.50,24.19,+/-,0.50,9.62%,+/-,1.86%
+HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ,L1_DoubleMu_10_3p5,1,L1_DoubleMu_10_3p5 OR L1_DoubleMu_12_5, 1|1,1,1,2.84,+/-,0.01,2.69,+/-,0.17,2.69,+/-,0.17,5.52%,+/-,5.53%
+HLT_PFHT800,L1_HTT125 OR L1_HTT100,1 | 1,L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175, 1|1|1|1,1,1,5.15,+/-,0.02,4.49,+/-,0.21,4.49,+/-,0.21,12.86%,+/-,3.64%
+HLT_Ele15_IsoVVVL_PFHT350,L1_SingleEG5,262139,L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175, 1|1|1|1,1,1,4.46,+/-,0.01,4.32,+/-,0.21,4.32,+/-,0.21,3.27%,+/-,4.57%
+HLT_Photon90_R9Id90_HE10_IsoM,L1_SingleEG25 OR L1_SingleEG40,1 | 1,L1_SingleEg25 OR L1_SingleEG40, -1||1,2,2,1.77,+/-,0.01,3.45,+/-,0.19,1.73,+/-,0.09,2.54%,+/-,5.20%
+HLT_Photon36_R9Id90_HE10_Iso40_EBOnly_VBF,L1_SingleEG30,1,L1_SingleEG30, 1,1,1,2.99,+/-,0.01,2.76,+/-,0.17,2.76,+/-,0.17,7.82%,+/-,5.20%
+HLT_DiPFJetAve320,L1_SingleJet128 OR L1_SingleJet176,1 | 1,L1_SingleJet128 OR L1_SingleJet176, 1|1,4,4,1.54,+/-,0.01,5.49,+/-,0.24,1.37,+/-,0.06,10.61%,+/-,3.49%

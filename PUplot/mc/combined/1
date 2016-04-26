@@ -1,0 +1,93 @@
+import ROOT
+import time
+import sys
+from math import *
+from os import walk
+from os import mkdir
+from scipy.stats import binom
+from array import array
+
+rundic={
+'259721':20.73,
+'259626':16.86,
+'256843':10.98,
+'256801':12.87,
+'260627':13.92
+}
+
+pathlist=[
+'HLT_Ele27_WPLoose_Gsf',
+'HLT_IsoMu20',
+'HLT_IsoMu22',
+'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ',
+'HLT_PFHT800',
+'HLT_Ele15_IsoVVVL_PFHT350',
+'HLT_Photon90_R9Id90_HE10_IsoM',
+'HLT_Photon36_R9Id90_HE10_Iso40_EBOnly_VBF',
+'HLT_DiPFJetAve320'
+]
+
+def getrate(run,pathlist):
+    ratedic={}
+    import csv
+
+    #set zero~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    for path in pathlist:
+        ratedic[path]=('0',-1.,-1.,False)
+
+    #open file~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    steamFile = '/afs/cern.ch/user/x/xgao/CMSSW_7_6_3/src/RateEstimate/'+run+'/Results/compareWbm_Steam/'+run+'specficHLTpaths.csv'
+    with open(steamFile) as csvfile:
+        steamReader=csv.reader(csvfile)
+        for line in steamReader:
+            success=False
+            if line[0] in pathlist:
+                rate = float(line[17])
+                err = float(line[19])
+                success = True
+                ratedic [line[0]] = (run,rate,err,success)
+
+        for path in pathlist:
+            if not ratedic[path][3] :
+                print "Error get path: "+path+"in run:"+run
+
+
+    return ratedic
+
+#main~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gdic={}
+for run in rundic:
+    tmp_list=[]
+    tmp_dic={}
+    tmp_dic=getrate(run,pathlist)
+    tmp_list.append(tmp_dic)
+    gdic[run]=tmp_list
+
+
+#plot~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+c1 = ROOT.TCanvas( 'c1', 'A Simple Graph with error bars', 200, 10, 700, 500 )
+hfile = ROOT.TFile('kkk.root', 'RECREATE', 'Demo ROOT file with histograms' )
+for path in pathlist:
+    x, y = array( 'f' ), array( 'f' )
+   
+    n=0 
+    for run in rundic:
+        x.append(rundic[run])
+        y.append(gdic[run][0][path][1])
+        n+=1
+
+    print path
+    print x
+    print y
+
+    gr = ROOT.TGraph( n, x, y )
+    gr.SetMarkerColor( 4 )
+    gr.SetMarkerStyle( 21 )
+    gr.SetTitle( path  )
+    gr.GetXaxis().SetTitle( 'PU' )
+    gr.GetYaxis().SetTitle( 'Rates of Steam (Hz)' )
+#    gr.Draw( 'AP' )
+
+    gr.Write()
+
+    c1.Update()

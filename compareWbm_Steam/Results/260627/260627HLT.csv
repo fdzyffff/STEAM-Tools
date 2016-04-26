@@ -1,0 +1,645 @@
+Path,L1Path,L1Prescale(5e33),Steam L1path,Steam L1Prescale,WBM hltPrescale(5e33),Steam hltPrescale,,Data Rate (Hz),,,Steam Rate (Hz),,,Steam Rate hltPrescaled(Hz),,,Bias(data-steam)
+HLT_DoubleMu3_Mass10,L1_DoubleMu_10_3p5,1,L1_DoubleMu_10_3p5 OR L1_DoubleMu_12_5, 1|1,1,1,212.76,+/-,0.07,218.32,+/-,2.08,218.32,+/-,2.08,2.54%,+/-,0.93%
+HLT_Ele23_WPLoose_Gsf,L1_SingleEG20,1,L1_SingleEG20 OR L1_SingleIsoEG18er OR L1_SingleIsoEG20 OR L1_SingleIsoEG20er OR L1_SingleIsoEG22er OR L1_SingleEG25, 10|1|1|10|1|1,1,1,170.75,+/-,0.06,172.93,+/-,1.85,172.93,+/-,1.85,1.26%,+/-,1.06%
+HLT_Ele27_WPLoose_Gsf,L1_SingleIsoEG20 OR L1_SingleIsoEG20er,1 | 1,L1_SingleIsoEG20er OR L1_SingleEG20 OR L1_SingleEG25, 10|10|1,1,1,115.52,+/-,0.05,115.68,+/-,1.52,115.68,+/-,1.52,0.14%,+/-,1.31%
+HLT_Ele22_eta2p1_WPLoose_Gsf,L1_SingleIsoEG20 OR L1_SingleIsoEG20er,1 | 1,L1_SingleIsoEG20er OR L1_SingleIsoEG22er OR L1_SingleEG25, 10|1|1,1,1,110.86,+/-,0.05,111.35,+/-,1.49,111.35,+/-,1.49,0.43%,+/-,1.33%
+HLT_IsoMu18,L1_SingleMu16,1,L1_SingleMu16, 1,1,1,99.33,+/-,0.05,104.07,+/-,1.44,104.07,+/-,1.44,4.55%,+/-,1.32%
+HLT_IsoTkMu18,L1_SingleMu16,1,L1_SingleMu16, 1,1,1,89.73,+/-,0.05,94.44,+/-,1.37,94.44,+/-,1.37,4.99%,+/-,1.38%
+HLT_OldIsoMu18,L1_SingleMu16,1,L1_SingleMu16, 1,1,1,82.13,+/-,0.04,86.01,+/-,1.31,86.01,+/-,1.31,4.51%,+/-,1.45%
+HLT_IsoMu20,L1_SingleMu16,1,L1_SingleMu16, 1,1,1,79.61,+/-,0.04,83.22,+/-,1.29,83.22,+/-,1.29,4.35%,+/-,1.48%
+HLT_OldIsoTkMu18,L1_SingleMu16,1,L1_SingleMu16, 1,1,1,75.50,+/-,0.04,79.03,+/-,1.25,79.03,+/-,1.25,4.46%,+/-,1.52%
+HLT_Ele27_eta2p1_WPLoose_Gsf,L1_SingleIsoEG22er,1,L1_SingleIsoEG22er OR L1_SingleEG25, 1|1,1,1,73.76,+/-,0.04,74.11,+/-,1.21,74.11,+/-,1.21,0.48%,+/-,1.63%
+HLT_IsoTkMu20,L1_SingleMu16,1,L1_SingleMu16, 1,1,1,72.31,+/-,0.04,75.43,+/-,1.22,75.43,+/-,1.22,4.13%,+/-,1.56%
+HLT_Ele22_eta2p1_WPTight_Gsf,L1_SingleIsoEG20 OR L1_SingleIsoEG20er,1 | 1,L1_SingleIsoEG20er OR L1_SingleIsoEG22er OR L1_SingleEG25, 10|1|1,1,1,71.85,+/-,0.04,72.76,+/-,1.20,72.76,+/-,1.20,1.25%,+/-,1.63%
+HLT_IsoMu22,L1_SingleMu20,1,L1_SingleMu20, 1,1,1,64.38,+/-,0.04,67.79,+/-,1.16,67.79,+/-,1.16,5.02%,+/-,1.63%
+HLT_IsoTkMu22,L1_SingleMu20,1,L1_SingleMu20, 1,1,1,59.81,+/-,0.04,62.71,+/-,1.12,62.71,+/-,1.12,4.63%,+/-,1.70%
+HLT_Ele27_eta2p1_WPTight_Gsf,L1_SingleIsoEG22er,1,L1_SingleIsoEG22er OR L1_SingleEG25, 1|1,1,1,49.46,+/-,0.03,49.67,+/-,0.99,49.67,+/-,0.99,0.42%,+/-,1.99%
+HLT_IsoMu27,L1_SingleMu25,1,L1_SingleMu25, 1,1,1,45.06,+/-,0.03,48.00,+/-,0.98,48.00,+/-,0.98,6.12%,+/-,1.91%
+HLT_IsoTkMu27,L1_SingleMu25,1,L1_SingleMu25, 1,1,1,42.85,+/-,0.03,45.29,+/-,0.95,45.29,+/-,0.95,5.39%,+/-,1.98%
+HLT_HT550to650,L1_HTT125 OR L1_HTT150,1 | 1,L1_HTT125 OR L1_HTT150 OR L1_HTT175, 1|1|1,1,1,36.74,+/-,0.03,35.58,+/-,0.84,35.58,+/-,0.84,3.15%,+/-,2.22%
+HLT_HT500to550,L1_HTT125 OR L1_HTT150,1 | 1,L1_HTT125 OR L1_HTT150 OR L1_HTT175, 1|1|1,1,1,35.48,+/-,0.03,35.13,+/-,0.84,35.13,+/-,0.84,0.99%,+/-,2.33%
+HLT_HT650,L1_HTT125 OR L1_HTT150,1 | 1,L1_HTT125 OR L1_HTT150 OR L1_HTT175, 1|1|1,1,1,33.44,+/-,0.03,32.22,+/-,0.80,32.22,+/-,0.80,3.65%,+/-,2.31%
+HLT_HT470to500,L1_HTT125 OR L1_HTT150,1 | 1,L1_HTT125 OR L1_HTT150 OR L1_HTT175, 1|1|1,1,1,31.44,+/-,0.03,32.22,+/-,0.80,32.22,+/-,0.80,2.44%,+/-,2.43%
+HLT_Ele32_eta2p1_WPTight_Gsf,L1_SingleIsoEG30er,1,L1_SingleIsoEG30er OR L1_SingleEG40, 1|1,1,1,30.26,+/-,0.03,30.81,+/-,0.78,30.81,+/-,0.78,1.78%,+/-,2.50%
+HLT_HT450to470,L1_HTT125 OR L1_HTT150,1 | 1,L1_HTT125 OR L1_HTT150 OR L1_HTT175, 1|1|1,1,1,27.13,+/-,0.03,26.79,+/-,0.73,26.79,+/-,0.73,1.24%,+/-,2.66%
+HLT_Mu17,L1_SingleMu12,70,L1_SingleMu12, 70,1,1,26.70,+/-,0.03,27.03,+/-,0.73,27.03,+/-,0.73,1.21%,+/-,2.68%
+HLT_Ele30WP60_SC4_Mass55,L1_SingleEG25,1,L1_SingleEG25 OR L1_SingleIsoEG30er, 1|1,1,1,22.29,+/-,0.02,21.12,+/-,0.65,21.12,+/-,0.65,5.22%,+/-,2.76%
+HLT_DoubleMu4_LowMassNonResonantTrk_Displaced,L1_DoubleMu0_Eta1p6_WdEta18 OR L1_DoubleMu0,1 | 150,L1_DoubleMu0_Eta1p6_WdEta18 OR L1_DoubleMu0_Eta1p6_WdEta18_OS OR L1_DoubleMu_10_0_WdEta18, 1|1|1,1,1,19.11,+/-,0.02,18.32,+/-,0.60,18.32,+/-,0.60,4.15%,+/-,3.03%
+HLT_AK8DiPFJet250_200_TrimMass30_BTagCSV0p45,L1_SingleJet200 OR L1_SingleJet176,1 | 1,L1_SingleJet176 OR L1_SingleJet200, 1|1,1,1,18.90,+/-,0.02,19.43,+/-,0.62,19.43,+/-,0.62,2.75%,+/-,3.11%
+HLT_Mu45_eta2p1,L1_SingleMu16 OR L1_SingleMu25,1 | 1,L1_SingleMu16 OR L1_SingleMu25, 1|1,1,1,17.75,+/-,0.02,18.88,+/-,0.61,18.88,+/-,0.61,5.98%,+/-,3.05%
+HLT_Rsq0p02_MR300_TriPFJet80_60_40_DoublePFBTagCSV0p7_0p4_Mbb60_200,L1_HTT100 OR L1_HTT75,1 | 1,L1_HTT75 OR L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175 OR L1_SingleJet128 OR L1_SingleJet176 OR L1_SingleJet200 OR L1_DoubleJetC84 OR L1_DoubleJetC100 OR L1_QuadJetC40 OR L1_QuadJetC60, 1|1|1|1|1|1|1|1|1|1|1|1,1,1,17.03,+/-,0.02,17.66,+/-,0.59,17.66,+/-,0.59,3.60%,+/-,3.24%
+HLT_Mu17_TrkIsoVVL,L1_SingleMu12,70,L1_SingleMu12, 70,1,1,16.92,+/-,0.02,17.25,+/-,0.59,17.25,+/-,0.59,1.88%,+/-,3.33%
+HLT_Photon36_R9Id90_HE10_Iso40_EBOnly_PFMET40,L1_SingleEG30,1,L1_SingleEG30, 1,1,1,15.95,+/-,0.02,16.15,+/-,0.57,16.15,+/-,0.57,1.22%,+/-,3.47%
+HLT_DoubleMu4_3_Jpsi_Displaced,L1_DoubleMu0_Eta1p6_WdEta18 OR L1_DoubleMu0,1 | 150,L1_DoubleMu0_Eta1p6_WdEta18 OR L1_DoubleMu0_Eta1p6_WdEta18_OS OR L1_DoubleMu_10_0_WdEta18, 1|1|1,1,1,15.52,+/-,0.02,16.13,+/-,0.57,16.13,+/-,0.57,3.77%,+/-,3.38%
+HLT_DoubleMediumIsoPFTau35_Trk1_eta2p1_Reg,L1_DoubleIsoTau28er,1,L1_DoubleIsoTau28er OR L1_DoubleIsoTau32er OR L1_DoubleIsoTau36er OR L1_DoubleIsoTau40er OR L1_DoubleTauJet40er, 1|1|1|1|1,1,1,13.91,+/-,0.02,14.04,+/-,0.53,14.04,+/-,0.53,0.93%,+/-,3.73%
+HLT_AK8DiPFJet280_200_TrimMass30_BTagCSV0p45,L1_SingleJet200 OR L1_SingleJet176,1 | 1,L1_SingleJet176 OR L1_SingleJet200, 1|1,1,1,13.29,+/-,0.02,13.23,+/-,0.51,13.23,+/-,0.51,0.50%,+/-,3.84%
+HLT_Dimuon10_Jpsi_Barrel,L1_DoubleMu0_Eta1p6_WdEta18 OR L1_DoubleMu0,1 | 150,L1_DoubleMu0_Eta1p6_WdEta18, 1,3,3,13.17,+/-,0.02,28.18,+/-,0.75,9.39,+/-,0.25,28.65%,+/-,1.36%
+HLT_Mu50,L1_SingleMu16 OR L1_SingleMu25,1 | 1,L1_SingleMu16 OR L1_SingleMu25, 1|1,1,1,12.44,+/-,0.02,12.93,+/-,0.51,12.93,+/-,0.51,3.76%,+/-,3.78%
+HLT_Dimuon16_Jpsi,L1_DoubleMu_10_0_WdEta18,1,L1_DoubleMu_10_0_WdEta18, 1,1,1,12.19,+/-,0.02,12.11,+/-,0.49,12.11,+/-,0.49,0.67%,+/-,4.00%
+HLT_PFHT800,L1_HTT125 OR L1_HTT100,1 | 1,L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175, 1|1|1|1,1,1,12.05,+/-,0.02,12.47,+/-,0.50,12.47,+/-,0.50,3.40%,+/-,3.86%
+HLT_Ele23_WPLoose_Gsf_CentralPFJet30_BTagCSV07,L1_SingleEG20,1,L1_SingleEG20 OR L1_SingleIsoEG18er OR L1_SingleIsoEG20 OR L1_SingleIsoEG20er OR L1_SingleIsoEG22er OR L1_SingleEG25, 10|1|1|10|1|1,1,1,11.75,+/-,0.02,11.60,+/-,0.48,11.60,+/-,0.48,1.34%,+/-,4.03%
+HLT_DoubleMu4_JpsiTrk_Displaced,L1_DoubleMu0_Eta1p6_WdEta18 OR L1_DoubleMu0,1 | 150,L1_DoubleMu0_Eta1p6_WdEta18 OR L1_DoubleMu0_Eta1p6_WdEta18_OS OR L1_DoubleMu_10_0_WdEta18, 1|1|1,1,1,11.58,+/-,0.02,12.27,+/-,0.49,12.27,+/-,0.49,5.64%,+/-,3.80%
+HLT_QuadPFJet_DoubleBTagCSV_VBF_Mqq200,L1_TripleJet_92_76_64_VBF,1,L1_TripleJet_92_76_64_VBF OR L1_TripleJet_84_68_48_VBF OR L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175 OR L1_SingleJet128 OR L1_DoubleJetC84, 1|1|1|1|1|1|1|1,1,1,11.50,+/-,0.02,11.38,+/-,0.48,11.38,+/-,0.48,1.06%,+/-,4.10%
+HLT_DoubleMediumIsoPFTau40_Trk1_eta2p1_Reg,L1_DoubleIsoTau28er,1,L1_DoubleIsoTau28er OR L1_DoubleIsoTau32er OR L1_DoubleIsoTau36er OR L1_DoubleIsoTau40er OR L1_DoubleTauJet40er, 1|1|1|1|1,1,1,11.40,+/-,0.02,11.38,+/-,0.48,11.38,+/-,0.48,0.21%,+/-,4.17%
+HLT_AK8PFHT650_TrimR0p1PT0p03Mass50,L1_HTT175 OR L1_HTT150,1 | 1,L1_HTT150 OR L1_HTT175, 1|1,1,1,11.33,+/-,0.02,10.88,+/-,0.47,10.88,+/-,0.47,3.94%,+/-,3.95%
+HLT_Ele22_eta2p1_WPLoose_Gsf_LooseIsoPFTau20_SingleL1,L1_SingleIsoEG20 OR L1_SingleIsoEG20er,1 | 1,L1_SingleIsoEG20er OR L1_SingleIsoEG22er OR L1_SingleEG25, 10|1|1,1,1,11.30,+/-,0.02,11.80,+/-,0.48,11.80,+/-,0.48,4.18%,+/-,3.94%
+HLT_AK8PFHT600_TrimR0p1PT0p03Mass50_BTagCSV0p45,L1_HTT175 OR L1_HTT150,1 | 1,L1_HTT150 OR L1_HTT175, 1|1,1,1,11.09,+/-,0.02,10.50,+/-,0.46,10.50,+/-,0.46,5.30%,+/-,3.91%
+HLT_PFMET170,L1_ETM60 OR L1_ETM70,1 | 1,L1_ETM60 OR L1_ETM70, 1|1,1,1,10.81,+/-,0.02,10.16,+/-,0.45,10.16,+/-,0.45,6.02%,+/-,3.91%
+HLT_Ele27_WPLoose_Gsf_CentralPFJet30_BTagCSV07,L1_SingleIsoEG20 OR L1_SingleIsoEG20er,1 | 1,L1_SingleIsoEG20er OR L1_SingleEG20 OR L1_SingleEG25, 10|10|1,1,1,10.75,+/-,0.02,10.06,+/-,0.45,10.06,+/-,0.45,6.34%,+/-,3.90%
+HLT_PFMET170_HBHECleaned,L1_ETM60 OR L1_ETM70,1 | 1,L1_ETM60 OR L1_ETM70, 1|1,1,1,10.69,+/-,0.02,10.04,+/-,0.45,10.04,+/-,0.45,5.99%,+/-,3.94%
+HLT_PFMETNoMu90_PFMHTNoMu90_IDTight,L1_ETM70,1,L1_ETM70 OR L1_DoubleJetC56_ETM60 OR L1_ETM60 OR L1_ETM50, 1|1|1|1,1,1,10.64,+/-,0.02,10.70,+/-,0.46,10.70,+/-,0.46,0.57%,+/-,4.29%
+HLT_PFMETNoMu90_JetIdCleaned_PFMHTNoMu90_IDTight,L1_ETM70,1,L1_ETM70 OR L1_DoubleJetC56_ETM60 OR L1_ETM60 OR L1_ETM50, 1|1|1|1,1,1,10.64,+/-,0.02,10.70,+/-,0.46,10.70,+/-,0.46,0.58%,+/-,4.29%
+HLT_PFHT200_DiPFJetAve90_PFAlphaT0p57,L1_HTT100 OR L1_HTT75,1 | 1,L1_HTT75 OR L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175 OR L1_HTT200 OR L1_HTT250 OR L1_ETM40 OR L1_ETM50 OR L1_ETM60 OR L1_ETM70 OR L1_ETM100, 1|1|1|1|1|1|1|5000|1|1|1|1,1,1,10.61,+/-,0.02,10.04,+/-,0.45,10.04,+/-,0.45,5.37%,+/-,3.99%
+HLT_PFMET90_PFMHT90_IDTight,L1_ETM70,1,L1_ETM70 OR L1_DoubleJetC56_ETM60 OR L1_ETM60 OR L1_ETM50, 1|1|1|1,1,1,10.57,+/-,0.02,10.72,+/-,0.46,10.72,+/-,0.46,1.38%,+/-,4.25%
+HLT_Ele30WP60_Ele8_Mass55,L1_SingleEG25,1,L1_SingleEG25 OR L1_SingleIsoEG30er, 1|1,1,1,10.56,+/-,0.02,10.12,+/-,0.45,10.12,+/-,0.45,4.12%,+/-,4.08%
+HLT_Ele15_IsoVVVL_PFHT350,L1_SingleEG5,1,L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175, 1|1|1|1,1,1,10.45,+/-,0.02,10.50,+/-,0.46,10.50,+/-,0.46,0.53%,+/-,4.33%
+HLT_MonoCentralPFJet80_PFMETNoMu90_JetIdCleaned_PFMHTNoMu90_IDTight,L1_ETM70,1,L1_ETM70 OR L1_DoubleJetC56_ETM60 OR L1_ETM60 OR L1_ETM50, 1|1|1|1,1,1,9.79,+/-,0.02,9.79,+/-,0.44,9.79,+/-,0.44,0.09%,+/-,4.50%
+HLT_MonoCentralPFJet80_PFMETNoMu90_PFMHTNoMu90_IDTight,L1_ETM70,1,L1_ETM70 OR L1_DoubleJetC56_ETM60 OR L1_ETM60 OR L1_ETM50, 1|1|1|1,1,1,9.79,+/-,0.02,9.79,+/-,0.44,9.79,+/-,0.44,0.09%,+/-,4.50%
+HLT_Dimuon0_Phi_Barrel,L1_DoubleMu0_Eta1p6_WdEta18 OR L1_DoubleMu0,1 | 150,L1_DoubleMu0_Eta1p6_WdEta18, 1,1,1,9.30,+/-,0.02,8.59,+/-,0.41,8.59,+/-,0.41,7.62%,+/-,4.11%
+HLT_HT400_DisplacedDijet40_Inclusive,L1_HTT100 OR L1_HTT75,1 | 1,L1_HTT75 OR L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175 OR L1_HTT200, 1|1|1|1|1|1,1,1,9.17,+/-,0.02,8.77,+/-,0.42,8.77,+/-,0.42,4.32%,+/-,4.36%
+HLT_BTagMu_DiJet70_Mu5,L1_Mu3_JetC52_WdEtaPhi2,7,L1_Mu3_JetC52_WdEtaPhi2, 7,3,3,9.10,+/-,0.01,27.77,+/-,0.74,9.26,+/-,0.25,1.70%,+/-,2.64%
+HLT_Mu27_TkMu8,L1_SingleMu16 OR L1_SingleMu25,1 | 1,L1_SingleMu16 OR L1_SingleMu25, 1|1,1,1,8.90,+/-,0.01,9.43,+/-,0.43,9.43,+/-,0.43,5.59%,+/-,4.34%
+HLT_AK8PFHT700_TrimR0p1PT0p03Mass50,L1_HTT175 OR L1_HTT150,1 | 1,L1_HTT150 OR L1_HTT175, 1|1,1,1,8.77,+/-,0.01,8.61,+/-,0.41,8.61,+/-,0.41,1.80%,+/-,4.64%
+HLT_IsoMu16_eta2p1_MET30,L1_Mu14er_ETM30 OR L1_Mu10er_ETM30,1 | 1,L1_Mu10er_ETM30 OR L1_Mu14er_ETM30, 1|1,1,1,8.58,+/-,0.01,9.45,+/-,0.43,9.45,+/-,0.43,9.17%,+/-,4.17%
+HLT_Mu55,L1_SingleMu16 OR L1_SingleMu25,1 | 1,L1_SingleMu16 OR L1_SingleMu25, 1|1,1,1,8.55,+/-,0.01,8.39,+/-,0.41,8.39,+/-,0.41,1.84%,+/-,4.69%
+HLT_Ele27_eta2p1_WPLoose_Gsf_LooseIsoPFTau20,L1_SingleIsoEG22er,1,L1_SingleIsoEG22er OR L1_SingleEG25, 1|1,1,1,8.52,+/-,0.01,9.15,+/-,0.43,9.15,+/-,0.43,6.92%,+/-,4.34%
+HLT_MET200,L1_ETM50 OR L1_ETM60 OR L1_ETM70,1 | 1 | 1,L1_ETM50 OR L1_ETM60 OR L1_ETM70, 1|1|1,1,1,8.49,+/-,0.01,8.12,+/-,0.40,8.12,+/-,0.40,4.46%,+/-,4.52%
+HLT_Rsq0p02_MR300_TriPFJet80_60_40_DoublePFBTagCSV0p7_Mbb60_200,L1_HTT100 OR L1_HTT75,1 | 1,L1_HTT75 OR L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175 OR L1_SingleJet128 OR L1_SingleJet176 OR L1_SingleJet200 OR L1_DoubleJetC84 OR L1_DoubleJetC100 OR L1_QuadJetC40 OR L1_QuadJetC60, 1|1|1|1|1|1|1|1|1|1|1|1,1,1,8.47,+/-,0.01,8.67,+/-,0.42,8.67,+/-,0.42,2.35%,+/-,4.68%
+HLT_Photon36_R9Id85_OR_CaloId24b40e_Iso50T80L_Photon22_AND_HE10_R9Id65_Eta2_Mass15,L1_SingleEG35 OR L1_SingleEG40,1 | 1,L1_SingleEG40 OR L1_SingleEG35 OR L1_DoubleEG_22_10 OR L1_DoubleEG_15_10, 1|1|1|1,1,1,8.30,+/-,0.01,7.66,+/-,0.39,7.66,+/-,0.39,7.77%,+/-,4.34%
+HLT_Ele35_CaloIdVT_GsfTrkIdT_PFJet150_PFJet50,L1_SingleEG25,1,L1_SingleEG25, 1,1,1,8.14,+/-,0.01,7.48,+/-,0.39,7.48,+/-,0.39,8.12%,+/-,4.36%
+HLT_LooseIsoPFTau50_Trk30_eta2p1_MET80,L1_ETM50 OR L1_ETM60 OR L1_ETM70,1 | 1 | 1,L1_ETM50 OR L1_ETM60 OR L1_ETM70, 1|1|1,1,1,8.10,+/-,0.01,7.28,+/-,0.38,7.28,+/-,0.38,10.14%,+/-,4.22%
+HLT_VBF_DisplacedJet40_Hadronic_2PromptTrack,L1_TripleJet_92_76_64_VBF,1,L1_TripleJet_92_76_64_VBF OR L1_HTT175, 1|1,1,1,8.06,+/-,0.01,8.00,+/-,0.40,8.00,+/-,0.40,0.75%,+/-,4.92%
+HLT_Mu16_TkMu0_dEta18_Onia,L1_SingleMu16 OR L1_SingleMu14er,1 | 200,L1_SingleMu14er OR L1_SingleMu16, 200|1,1,1,7.95,+/-,0.01,7.86,+/-,0.40,7.86,+/-,0.40,1.21%,+/-,4.91%
+HLT_L2Mu35_NoVertex_3Sta_NoBPTX3BX_NoHalo,L1_SingleMuOpen OR L1_SingleMuOpen_NotBptxOR,262139 | 1,L1_SingleMuOpen_NotBptxOR, 1,1,1,7.89,+/-,0.01,8.25,+/-,0.41,8.25,+/-,0.41,4.36%,+/-,4.70%
+HLT_Photon36_R9Id90_HE10_Iso40_EBOnly_VBF,L1_SingleEG30,1,L1_SingleEG30, 1,1,1,7.86,+/-,0.01,7.98,+/-,0.40,7.98,+/-,0.40,1.41%,+/-,4.93%
+HLT_Dimuon8_Upsilon_Barrel,L1_DoubleMu0_Eta1p6_WdEta18 OR L1_DoubleMu0,1 | 150,L1_DoubleMu0_Eta1p6_WdEta18, 1,1,1,7.82,+/-,0.01,7.90,+/-,0.40,7.90,+/-,0.40,0.96%,+/-,4.97%
+HLT_RsqMR240_Rsq0p09_MR200,L1_HTT100 OR L1_HTT75,1 | 1,L1_HTT75 OR L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175 OR L1_SingleJet128 OR L1_SingleJet176 OR L1_SingleJet200 OR L1_DoubleJetC84 OR L1_DoubleJetC100 OR L1_QuadJetC40 OR L1_QuadJetC60, 1|1|1|1|1|1|1|1|1|1|1|1,1,1,7.69,+/-,0.01,8.12,+/-,0.40,8.12,+/-,0.40,5.20%,+/-,4.70%
+HLT_Mu8_TrkIsoVVL_Ele17_CaloIdL_TrackIdL_IsoVL,L1_Mu5_EG15,1,L1_Mu5_EG15, 1,1,1,7.52,+/-,0.01,8.35,+/-,0.41,8.35,+/-,0.41,9.96%,+/-,4.40%
+HLT_PFHT750_4JetPt50,L1_HTT175 OR L1_HTT150,1 | 1,L1_HTT150 OR L1_HTT175, 1|1,1,1,7.48,+/-,0.01,7.42,+/-,0.38,7.42,+/-,0.38,0.87%,+/-,5.09%
+HLT_Mu20,L1_SingleMu16,1,L1_SingleMu16, 1,60,60,7.38,+/-,0.01,328.71,+/-,2.56,5.48,+/-,0.04,25.73%,+/-,0.47%
+HLT_Ele105_CaloIdVT_GsfTrkIdT,L1_SingleEG35 OR L1_SingleEG40,1 | 1,L1_SingleEG35 OR L1_SingleEG40 OR L1_SingleJet200, 1|1|1,1,1,7.31,+/-,0.01,7.58,+/-,0.39,7.58,+/-,0.39,3.53%,+/-,4.95%
+HLT_Diphoton30_18_R9Id_OR_IsoCaloId_AND_HE_R9Id_Mass95,L1_SingleEG25 OR L1_SingleEG40,1 | 1,L1_SingleEG40 OR L1_SingleEG25 OR L1_DoubleEG_22_10 OR L1_DoubleEG_15_10, 1|1|1|1,1,1,7.23,+/-,0.01,6.84,+/-,0.37,6.84,+/-,0.37,5.39%,+/-,4.83%
+HLT_Diphoton30EB_18EB_R9Id_OR_IsoCaloId_AND_HE_R9Id_DoublePixelVeto_Mass55,L1_SingleEG25 OR L1_SingleEG40,1 | 1,L1_SingleEG40 OR L1_SingleEG25 OR L1_DoubleEG_22_10 OR L1_DoubleEG_15_10, 1|1|1|1,1,1,7.14,+/-,0.01,6.84,+/-,0.37,6.84,+/-,0.37,4.19%,+/-,4.95%
+HLT_Mu17_TrkIsoVVL_TkMu8_TrkIsoVVL_DZ,L1_DoubleMu_10_3p5,1,L1_DoubleMu_10_3p5 OR L1_DoubleMu_12_5, 1|1,1,1,7.03,+/-,0.01,7.78,+/-,0.39,7.78,+/-,0.39,9.62%,+/-,4.57%
+HLT_L2Mu40_NoVertex_3Sta_NoBPTX3BX_NoHalo,L1_SingleMuOpen OR L1_SingleMuOpen_NotBptxOR,262139 | 1,L1_SingleMuOpen_NotBptxOR, 1,1,1,6.95,+/-,0.01,7.06,+/-,0.37,7.06,+/-,0.37,1.60%,+/-,5.23%
+HLT_BTagMu_DiJet110_Mu5,L1_Mu3_JetC52_WdEtaPhi2,7,L1_Mu3_JetC52_WdEtaPhi2, 7,1,1,6.86,+/-,0.01,7.40,+/-,0.38,7.40,+/-,0.38,7.32%,+/-,4.81%
+HLT_L2Mu10,L1_SingleMu16,1,L1_SingleMu16, 1,500,500,6.76,+/-,0.01,2577.88,+/-,7.16,5.16,+/-,0.01,23.68%,+/-,0.25%
+HLT_Ele22_eta2p1_WPLoose_Gsf_LooseIsoPFTau20,L1_IsoEG20er_TauJet20er_NotWdEta0,1,L1_IsoEG20er_TauJet20er_NotWdEta0, 1,1,1,6.67,+/-,0.01,7.14,+/-,0.38,7.14,+/-,0.38,6.55%,+/-,4.94%
+HLT_Diphoton30PV_18PV_R9Id_AND_IsoCaloId_AND_HE_R9Id_DoublePixelVeto_Mass55,L1_SingleEG25 OR L1_SingleEG40,1 | 1,L1_SingleEG40 OR L1_SingleEG25 OR L1_DoubleEG_22_10 OR L1_DoubleEG_15_10, 1|1|1|1,1,1,6.54,+/-,0.01,6.36,+/-,0.36,6.36,+/-,0.36,2.72%,+/-,5.29%
+HLT_HcalCalibration,,,none, -1|,1,1,6.51,+/-,0.01,0.00,+/-,0.00,0.00,+/-,0.00,100.00%,+/-,0.19%
+HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ,L1_DoubleMu_10_3p5,1,L1_DoubleMu_10_3p5 OR L1_DoubleMu_12_5, 1|1,1,1,6.36,+/-,0.01,7.22,+/-,0.38,7.22,+/-,0.38,11.89%,+/-,4.63%
+HLT_Mu30_TkMu11,L1_SingleMu16 OR L1_SingleMu25,1 | 1,L1_SingleMu16 OR L1_SingleMu25, 1|1,1,1,6.34,+/-,0.01,6.66,+/-,0.36,6.66,+/-,0.36,4.93%,+/-,5.20%
+HLT_Diphoton30_18_Solid_R9Id_AND_IsoCaloId_AND_HE_R9Id_Mass55,L1_SingleEG25 OR L1_SingleEG40,1 | 1,L1_SingleEG40 OR L1_SingleEG25 OR L1_DoubleEG_22_10 OR L1_DoubleEG_15_10, 1|1|1|1,1,1,6.33,+/-,0.01,6.33,+/-,0.35,6.33,+/-,0.35,0.09%,+/-,5.60%
+HLT_PFMET100_PFMHT100_IDTight,L1_ETM70,1,L1_ETM70 OR L1_DoubleJetC56_ETM60 OR L1_ETM60 OR L1_ETM50, 1|1|1|1,1,1,6.18,+/-,0.01,6.33,+/-,0.35,6.33,+/-,0.35,2.26%,+/-,5.48%
+HLT_BTagMu_DiJet40_Mu5,L1_Mu3_JetC16_WdEtaPhi2,150,L1_Mu3_JetC16_WdEtaPhi2, 150,1,1,6.14,+/-,0.01,6.70,+/-,0.37,6.70,+/-,0.37,8.43%,+/-,4.99%
+HLT_DoubleMu4_3_Bs,L1_DoubleMu0_Eta1p6_WdEta18 OR L1_DoubleMu0,1 | 150,L1_DoubleMu0_Eta1p6_WdEta18 OR L1_DoubleMu0_Eta1p6_WdEta18_OS OR L1_DoubleMu_10_0_WdEta18, 1|1|1,1,1,6.12,+/-,0.01,6.11,+/-,0.35,6.11,+/-,0.35,0.23%,+/-,5.68%
+HLT_IsoMu18_CentralPFJet30_BTagCSV07,L1_SingleMu16,1,L1_SingleMu16, 1,1,1,5.94,+/-,0.01,5.79,+/-,0.34,5.79,+/-,0.34,2.50%,+/-,5.58%
+HLT_Dimuon20_Jpsi,L1_DoubleMu_10_0_WdEta18,1,L1_DoubleMu_10_0_WdEta18, 1,1,1,5.80,+/-,0.01,5.87,+/-,0.34,5.87,+/-,0.34,1.17%,+/-,5.76%
+HLT_Ele27_eta2p1_WPLoose_Gsf_HT200,L1_HTT125 OR L1_EG25er_HTT100,1 | 1,L1_EG25er_HTT125 OR L1_HTT125 OR L1_HTT100, -1||1|1,1,1,5.53,+/-,0.01,5.37,+/-,0.33,5.37,+/-,0.33,2.80%,+/-,5.75%
+HLT_IsoMu17_eta2p1_LooseIsoPFTau20_SingleL1,L1_SingleMu16 OR L1_SingleMu16er,1 | 1,L1_SingleMu16er, 1,1,1,5.45,+/-,0.01,5.79,+/-,0.34,5.79,+/-,0.34,5.87%,+/-,5.52%
+HLT_Ele17_Ele12_CaloIdL_TrackIdL_IsoVL_DZ,L1_DoubleEG_15_10,1,L1_DoubleEG_15_10, 1,1,1,5.34,+/-,0.01,5.61,+/-,0.33,5.61,+/-,0.33,4.74%,+/-,5.68%
+HLT_AK8PFJet360_TrimMass30,L1_SingleJet200 OR L1_SingleJet176,1 | 1,L1_SingleJet176 OR L1_SingleJet200, 1|1,1,1,5.33,+/-,0.01,5.17,+/-,0.32,5.17,+/-,0.32,2.91%,+/-,5.85%
+HLT_Mu17_Photon22_CaloIdL_L1ISO,L1_Mu5_IsoEG18,1,L1_Mu5_IsoEG18, 1,1,1,5.32,+/-,0.01,5.77,+/-,0.34,5.77,+/-,0.34,7.71%,+/-,5.42%
+HLT_Ele115_CaloIdVT_GsfTrkIdT,L1_SingleEG35 OR L1_SingleEG40,1 | 1,L1_SingleEG35 OR L1_SingleEG40 OR L1_SingleJet200, 1|1|1,1,1,5.26,+/-,0.01,5.45,+/-,0.33,5.45,+/-,0.33,3.57%,+/-,5.83%
+HLT_DoubleEle33_CaloIdL_GsfTrkIdVL,L1_SingleEG35 OR L1_SingleEG40,1 | 1,L1_SingleEG40 OR L1_SingleEG35 OR L1_SingleEG30 OR L1_SingleEG25 OR L1_SingleEG20 OR L1_DoubleEG_22_10 OR L1_SingleJet200, 1|1|1|1|10|1|1,1,1,5.15,+/-,0.01,5.25,+/-,0.32,5.25,+/-,0.32,2.00%,+/-,6.04%
+HLT_Photon90_CaloIdL_PFHT500,L1_SingleEG40,1,L1_SingleEG40, 1,1,1,5.11,+/-,0.01,5.33,+/-,0.33,5.33,+/-,0.33,4.05%,+/-,5.86%
+HLT_VBF_DisplacedJet40_Hadronic,L1_TripleJet_92_76_64_VBF,1,L1_TripleJet_92_76_64_VBF OR L1_HTT175, 1|1,1,1,5.07,+/-,0.01,4.69,+/-,0.31,4.69,+/-,0.31,7.39%,+/-,5.59%
+HLT_QuadPFJet_DoubleBTagCSV_VBF_Mqq240,L1_TripleJet_92_76_64_VBF,1,L1_TripleJet_92_76_64_VBF OR L1_TripleJet_84_68_48_VBF OR L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175 OR L1_SingleJet128 OR L1_DoubleJetC84, 1|1|1|1|1|1|1|1,1,1,5.03,+/-,0.01,4.85,+/-,0.31,4.85,+/-,0.31,3.45%,+/-,5.97%
+HLT_L1_TripleJet_VBF,L1_TripleJet_92_76_64_VBF,1,L1_TripleJet_92_76_64_VBF OR L1_TripleJet_84_68_48_VBF OR L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175 OR L1_SingleJet128 OR L1_DoubleJetC84, 1|1|1|1|1|1|1|1,3600,3600,5.00,+/-,0.01,13160.28,+/-,16.18,3.66,+/-,0.00,26.90%,+/-,0.23%
+HLT_Photon50_R9Id90_HE10_Iso40_EBOnly_PFMET40,L1_SingleEG40,1,L1_SingleEG40, 1,1,1,5.00,+/-,0.01,5.27,+/-,0.32,5.27,+/-,0.32,5.16%,+/-,5.83%
+HLT_Mu8_TrkIsoVVL,L1_SingleMu7 OR L1_SingleMu5,125 | 262139,L1_SingleMu5 OR L1_SingleMu7, 262139|125,30,30,4.89,+/-,0.01,146.85,+/-,1.71,4.90,+/-,0.06,0.09%,+/-,1.18%
+HLT_MET250,L1_ETM60 OR L1_ETM70,1 | 1,L1_ETM60 OR L1_ETM70, 1|1,1,1,4.80,+/-,0.01,4.20,+/-,0.29,4.20,+/-,0.29,12.49%,+/-,5.28%
+HLT_Photon42_R9Id85_OR_CaloId24b40e_Iso50T80L_Photon25_AND_HE10_R9Id65_Eta2_Mass15,L1_SingleEG35 OR L1_SingleEG40,1 | 1,L1_SingleEG40 OR L1_SingleEG35 OR L1_DoubleEG_22_10 OR L1_DoubleEG_15_10, 1|1|1|1,1,1,4.79,+/-,0.01,4.85,+/-,0.31,4.85,+/-,0.31,1.36%,+/-,6.32%
+HLT_Photon165_HE10,L1_SingleEG25 OR L1_SingleEG40,1 | 1,L1_SingleEg25 OR L1_SingleEG40 OR L1_SingleJet200, -1||1|1,1,1,4.74,+/-,0.01,4.40,+/-,0.30,4.40,+/-,0.30,7.31%,+/-,5.78%
+HLT_PFJet450,L1_SingleJet128 OR L1_SingleJet200,1 | 1,L1_SingleJet128 OR L1_SingleJet200, 1|1,1,1,4.74,+/-,0.01,4.65,+/-,0.30,4.65,+/-,0.30,1.74%,+/-,6.32%
+HLT_PFHT200_DiPFJetAve90_PFAlphaT0p63,L1_HTT100 OR L1_HTT75,1 | 1,L1_HTT75 OR L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175 OR L1_HTT200 OR L1_HTT250 OR L1_ETM40 OR L1_ETM50 OR L1_ETM60 OR L1_ETM70 OR L1_ETM100, 1|1|1|1|1|1|1|5000|1|1|1|1,1,1,4.65,+/-,0.01,4.24,+/-,0.29,4.24,+/-,0.29,8.97%,+/-,5.68%
+HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL_DZ,L1_DoubleEG_22_10,1,L1_DoubleEG_22_10, 1,1,1,4.51,+/-,0.01,4.89,+/-,0.31,4.89,+/-,0.31,7.91%,+/-,5.88%
+HLT_Dimuon13_Upsilon,L1_DoubleMu_10_0_WdEta18,1,L1_DoubleMu_10_0_WdEta18, 1,1,1,4.43,+/-,0.01,4.16,+/-,0.29,4.16,+/-,0.29,6.05%,+/-,6.11%
+HLT_PFHT250_DiPFJetAve90_PFAlphaT0p55,L1_HTT100 OR L1_HTT75,1 | 1,L1_HTT75 OR L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175 OR L1_HTT200 OR L1_HTT250 OR L1_ETM40 OR L1_ETM50 OR L1_ETM60 OR L1_ETM70 OR L1_ETM100, 1|1|1|1|1|1|1|5000|1|1|1|1,1,1,4.39,+/-,0.01,4.08,+/-,0.28,4.08,+/-,0.28,7.14%,+/-,6.03%
+HLT_PFMET110_PFMHT110_IDTight,L1_ETM70,1,L1_ETM70 OR L1_DoubleJetC56_ETM60 OR L1_ETM60 OR L1_ETM50, 1|1|1|1,1,1,4.37,+/-,0.01,4.36,+/-,0.29,4.36,+/-,0.29,0.21%,+/-,6.73%
+HLT_Mu30_eta2p1_PFJet150_PFJet50,L1_SingleMu16 OR L1_SingleMu16er OR L1_SingleMu20 OR L1_SingleMu20er,1 | 1 | 1 | 1,L1_SingleMu16er OR L1_SingleMu20er, 1|1,1,1,4.36,+/-,0.01,4.59,+/-,0.30,4.59,+/-,0.30,5.02%,+/-,6.25%
+HLT_Photon175,L1_SingleEG25 OR L1_SingleEG40,1 | 1,L1_SingleEg25 OR L1_SingleEG40 OR L1_SingleJet200, -1||1|1,1,1,4.36,+/-,0.01,4.28,+/-,0.29,4.28,+/-,0.29,1.93%,+/-,6.56%
+HLT_Dimuon8_PsiPrime_Barrel,L1_DoubleMu0_Eta1p6_WdEta18 OR L1_DoubleMu0,1 | 150,L1_DoubleMu0_Eta1p6_WdEta18, 1,1,1,4.36,+/-,0.01,3.88,+/-,0.28,3.88,+/-,0.28,10.98%,+/-,5.68%
+HLT_IsoMu20_eta2p1_LooseIsoPFTau20,L1_SingleMu16 OR L1_SingleMu16er,1 | 1,L1_SingleMu16er, 1,1,1,4.24,+/-,0.01,4.44,+/-,0.30,4.44,+/-,0.30,4.43%,+/-,6.40%
+HLT_Mu15_IsoVVVL_PFHT350,L1_SingleMuOpen,262139,L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175, 1|1|1|1,1,1,4.23,+/-,0.01,4.71,+/-,0.31,4.71,+/-,0.31,10.27%,+/-,5.83%
+HLT_PFHT650_WideJetMJJ900DEtaJJ1p5,L1_HTT175 OR L1_HTT150,1 | 1,L1_HTT150 OR L1_HTT175, 1|1,1,1,4.19,+/-,0.01,4.16,+/-,0.29,4.16,+/-,0.29,0.67%,+/-,6.83%
+HLT_Mu8_TrkIsoVVL_Ele23_CaloIdL_TrackIdL_IsoVL,L1_Mu5_EG20,1,L1_Mu5_EG20, 1,1,1,4.12,+/-,0.01,4.38,+/-,0.30,4.38,+/-,0.30,5.90%,+/-,6.35%
+HLT_Mu40_TkMu11,L1_SingleMu16 OR L1_SingleMu25,1 | 1,L1_SingleMu16 OR L1_SingleMu25, 1|1,1,1,4.08,+/-,0.01,4.38,+/-,0.30,4.38,+/-,0.30,6.68%,+/-,6.30%
+HLT_CaloJet500_NoJetID,L1_SingleJet200,1,L1_SingleJet200, 1,1,1,4.05,+/-,0.01,3.92,+/-,0.28,3.92,+/-,0.28,3.17%,+/-,6.69%
+HLT_IsoMu22_CentralPFJet30_BTagCSV07,L1_SingleMu20,1,L1_SingleMu20, 1,1,1,3.91,+/-,0.01,4.06,+/-,0.28,4.06,+/-,0.28,3.74%,+/-,6.74%
+HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL,L1_DoubleEG_22_10,1,L1_DoubleEG_22_10, 1,3,3,3.88,+/-,0.01,9.01,+/-,0.42,3.00,+/-,0.14,22.64%,+/-,2.82%
+HLT_PFMETNoMu120_PFMHTNoMu120_IDTight,L1_ETM70,1,L1_ETM70 OR L1_DoubleJetC56_ETM60 OR L1_ETM60 OR L1_ETM50, 1|1|1|1,1,1,3.87,+/-,0.01,4.14,+/-,0.29,4.14,+/-,0.29,6.51%,+/-,6.49%
+HLT_PFMETNoMu120_JetIdCleaned_PFMHTNoMu120_IDTight,L1_ETM70,1,L1_ETM70 OR L1_DoubleJetC56_ETM60 OR L1_ETM60 OR L1_ETM50, 1|1|1|1,1,1,3.87,+/-,0.01,4.14,+/-,0.29,4.14,+/-,0.29,6.51%,+/-,6.49%
+HLT_MonoCentralPFJet80_PFMETNoMu120_PFMHTNoMu120_IDTight,L1_ETM70,1,L1_ETM70 OR L1_DoubleJetC56_ETM60 OR L1_ETM60 OR L1_ETM50, 1|1|1|1,1,1,3.76,+/-,0.01,3.94,+/-,0.28,3.94,+/-,0.28,4.53%,+/-,6.79%
+HLT_MonoCentralPFJet80_PFMETNoMu120_JetIdCleaned_PFMHTNoMu120_IDTight,L1_ETM70,1,L1_ETM70 OR L1_DoubleJetC56_ETM60 OR L1_ETM60 OR L1_ETM50, 1|1|1|1,1,1,3.76,+/-,0.01,3.94,+/-,0.28,3.94,+/-,0.28,4.61%,+/-,6.78%
+HLT_Mu8,L1_SingleMu7 OR L1_SingleMu5,125 | 262139,L1_SingleMu5 OR L1_SingleMu7, 262139|125,60,60,3.68,+/-,0.01,220.57,+/-,2.09,3.68,+/-,0.03,0.02%,+/-,0.98%
+HLT_PFHT600,L1_HTT100 OR L1_HTT75,1 | 1,L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175, 1|1|1|1,18,18,3.61,+/-,0.01,46.76,+/-,0.96,2.60,+/-,0.05,28.06%,+/-,1.10%
+HLT_PFHT350_PFMET100,L1_HTT125 OR L1_HTT100,1 | 1,L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175, 1|1|1|1,1,1,3.61,+/-,0.01,3.24,+/-,0.25,3.24,+/-,0.25,10.18%,+/-,6.33%
+HLT_IsoMu17_eta2p1_LooseIsoPFTau20,L1_Mu16er_TauJet20er,1,L1_Mu16er_TauJet20er, 1,1,1,3.53,+/-,0.01,3.96,+/-,0.28,3.96,+/-,0.28,10.83%,+/-,6.33%
+HLT_PFMET170_JetIdCleaned,L1_ETM60 OR L1_ETM70,1 | 1,L1_ETM60 OR L1_ETM70, 1|1,1,1,3.49,+/-,0.01,3.10,+/-,0.25,3.10,+/-,0.25,11.21%,+/-,6.32%
+HLT_PFMET170_NoiseCleaned,L1_ETM60 OR L1_ETM70,1 | 1,L1_ETM60 OR L1_ETM70, 1|1,1,1,3.42,+/-,0.01,3.00,+/-,0.24,3.00,+/-,0.24,12.19%,+/-,6.28%
+HLT_HT500_DisplacedDijet40_Inclusive,L1_HTT125 OR L1_HTT150,1 | 1,L1_HTT125 OR L1_HTT150 OR L1_HTT175 OR L1_HTT200, 1|1|1|1,1,1,3.41,+/-,0.01,3.28,+/-,0.26,3.28,+/-,0.26,3.74%,+/-,7.22%
+HLT_QuadPFJet_SingleBTagCSV_VBF_Mqq460,L1_TripleJet_92_76_64_VBF,1,L1_TripleJet_92_76_64_VBF OR L1_TripleJet_84_68_48_VBF OR L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175 OR L1_SingleJet128 OR L1_DoubleJetC84, 1|1|1|1|1|1|1|1,1,1,3.36,+/-,0.01,3.18,+/-,0.25,3.18,+/-,0.25,5.36%,+/-,7.09%
+HLT_DoubleJetsC100_DoubleBTagCSV0p9_DoublePFJetsC100MaxDeta1p6,L1_DoubleJetC100,1,L1_DoubleJetC100, 1,1,1,3.30,+/-,0.01,3.48,+/-,0.26,3.48,+/-,0.26,5.11%,+/-,7.18%
+HLT_Photon50_R9Id90_HE10_Iso40_EBOnly_VBF,L1_SingleEG40,1,L1_SingleEG40, 1,1,1,3.27,+/-,0.01,3.46,+/-,0.26,3.46,+/-,0.26,5.49%,+/-,7.17%
+HLT_Mu38NoFiltersNoVtx_DisplacedJet60_Loose,L1_SingleMu16 OR L1_SingleMu25,1 | 1,L1_SingleMu16 OR L1_SingleMu25, 1|1,1,1,3.27,+/-,0.01,2.96,+/-,0.24,2.96,+/-,0.24,9.39%,+/-,6.73%
+HLT_Mu17_Photon30_CaloIdL_L1ISO,L1_Mu5_IsoEG18,1,L1_Mu5_IsoEG18, 1,1,1,3.24,+/-,0.01,3.44,+/-,0.26,3.44,+/-,0.26,5.80%,+/-,7.17%
+HLT_Dimuon0_Jpsi_Muon,L1_TripleMu0,1,L1_TripleMu0, 1,1,1,3.22,+/-,0.01,3.28,+/-,0.26,3.28,+/-,0.26,1.77%,+/-,7.65%
+HLT_PFHT650_WideJetMJJ950DEtaJJ1p5,L1_HTT175 OR L1_HTT150,1 | 1,L1_HTT150 OR L1_HTT175, 1|1,1,1,3.21,+/-,0.01,3.12,+/-,0.25,3.12,+/-,0.25,2.76%,+/-,7.55%
+HLT_Ele23_WPLoose_Gsf_WHbbBoost,L1_SingleEG20,1,L1_SingleEG20 OR L1_SingleIsoEG18er OR L1_SingleIsoEG20 OR L1_SingleIsoEG20er OR L1_SingleIsoEG22er OR L1_SingleEG25, 10|1|1|10|1|1,1,1,3.20,+/-,0.01,2.90,+/-,0.24,2.90,+/-,0.24,9.26%,+/-,6.82%
+HLT_PFHT650,L1_HTT175 OR L1_HTT150,1 | 1,L1_HTT150 OR L1_HTT175, 1|1,12,12,3.13,+/-,0.01,32.18,+/-,0.80,2.68,+/-,0.07,14.40%,+/-,1.84%
+HLT_Mu33NoFiltersNoVtxDisplaced_DisplacedJet50_Loose,L1_SingleMu16 OR L1_SingleMu25,1 | 1,L1_SingleMu16 OR L1_SingleMu25, 1|1,1,1,3.12,+/-,0.01,3.06,+/-,0.25,3.06,+/-,0.25,1.88%,+/-,7.76%
+HLT_DiPFJetAve60,L1_ZeroBias,7591,L1_ZeroBias, 10000,1,1,3.10,+/-,0.01,3.38,+/-,0.26,3.38,+/-,0.26,8.28%,+/-,7.04%
+HLT_Mu12_Photon25_CaloIdL_L1OR,L1_Mu5_EG20 OR L1_Mu20_EG10,1 | 1,L1_Mu5_EG20 OR L1_Mu20_EG10, 1|1,7,7,3.08,+/-,0.01,16.69,+/-,0.58,2.38,+/-,0.08,22.70%,+/-,2.08%
+HLT_PFMET120_PFMHT120_IDTight,L1_ETM70,1,L1_ETM70 OR L1_DoubleJetC56_ETM60 OR L1_ETM60 OR L1_ETM50, 1|1|1|1,1,1,3.06,+/-,0.01,3.24,+/-,0.25,3.24,+/-,0.25,5.68%,+/-,7.39%
+HLT_VBF_DisplacedJet40_TightID_Hadronic,L1_TripleJet_92_76_64_VBF,1,L1_TripleJet_92_76_64_VBF OR L1_HTT175, 1|1,1,1,3.04,+/-,0.01,2.82,+/-,0.24,2.82,+/-,0.24,7.10%,+/-,7.25%
+HLT_PFHT400_SixJet30_BTagCSV0p55_2PFBTagCSV0p72,L1_HTT175,1,L1_HTT175, 1,1,1,3.03,+/-,0.01,3.36,+/-,0.26,3.36,+/-,0.26,9.84%,+/-,6.94%
+HLT_DoubleEle33_CaloIdL_GsfTrkIdVL_MW,L1_SingleEG35 OR L1_SingleEG40,1 | 1,L1_SingleEG40 OR L1_SingleEG35 OR L1_SingleEG30 OR L1_SingleEG25 OR L1_SingleEG20 OR L1_DoubleEG_22_10 OR L1_SingleJet200, 1|1|1|1|10|1|1,1,1,2.94,+/-,0.01,3.08,+/-,0.25,3.08,+/-,0.25,4.79%,+/-,7.65%
+HLT_MET300,L1_ETM60 OR L1_ETM70,1 | 1,L1_ETM60 OR L1_ETM70, 1|1,1,1,2.93,+/-,0.01,2.63,+/-,0.23,2.63,+/-,0.23,10.46%,+/-,6.98%
+HLT_PFHT450_SixJet40_PFBTagCSV0p72,L1_HTT175,1,L1_HTT175, 1,1,1,2.90,+/-,0.01,3.30,+/-,0.26,3.30,+/-,0.26,12.21%,+/-,6.82%
+HLT_Ele23_WPLoose_Gsf_TriCentralPFJet50_40_30,L1_SingleEG20,1,L1_SingleEG20 OR L1_SingleIsoEG18er OR L1_SingleIsoEG20 OR L1_SingleIsoEG20er OR L1_SingleIsoEG22er OR L1_SingleEG25, 10|1|1|10|1|1,1,1,2.80,+/-,0.01,2.92,+/-,0.24,2.92,+/-,0.24,4.37%,+/-,7.89%
+HLT_DiPFJetAve220_HFJEC,L1_SingleJet176,1,L1_SingleJet176, 1,1,1,2.79,+/-,0.01,2.80,+/-,0.24,2.80,+/-,0.24,0.42%,+/-,8.39%
+HLT_PFJet500,L1_SingleJet128 OR L1_SingleJet200,1 | 1,L1_SingleJet128 OR L1_SingleJet200, 1|1,1,1,2.72,+/-,0.01,3.04,+/-,0.25,3.04,+/-,0.25,10.59%,+/-,7.23%
+HLT_DiCentralPFJet55_PFMET110,L1_ETM50 OR L1_ETM60 OR L1_ETM70,1 | 1 | 1,L1_ETM50 OR L1_ETM60 OR L1_ETM70, 1|1|1,1,1,2.70,+/-,0.01,2.67,+/-,0.23,2.67,+/-,0.23,1.26%,+/-,8.43%
+HLT_PFHT300_DiPFJetAve90_PFAlphaT0p53,L1_HTT100 OR L1_HTT75,1 | 1,L1_HTT75 OR L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175 OR L1_HTT200 OR L1_HTT250 OR L1_ETM40 OR L1_ETM50 OR L1_ETM60 OR L1_ETM70 OR L1_ETM100, 1|1|1|1|1|1|1|5000|1|1|1|1,1,1,2.68,+/-,0.01,2.86,+/-,0.24,2.86,+/-,0.24,6.49%,+/-,7.80%
+HLT_PFHT450_SixJet40,L1_HTT175,1,L1_HTT175, 1,3,3,2.66,+/-,0.01,6.54,+/-,0.36,2.18,+/-,0.12,18.01%,+/-,3.72%
+HLT_Mu17_Photon35_CaloIdL_L1ISO,L1_Mu5_IsoEG18,1,L1_Mu5_IsoEG18, 1,1,1,2.63,+/-,0.01,2.80,+/-,0.24,2.80,+/-,0.24,6.39%,+/-,7.89%
+HLT_Photon90_R9Id90_HE10_IsoM,L1_SingleEG25 OR L1_SingleEG40,1 | 1,L1_SingleEg25 OR L1_SingleEG40, -1||1,4,4,2.60,+/-,0.01,8.35,+/-,0.41,2.09,+/-,0.10,19.67%,+/-,3.16%
+HLT_PFHT350,L1_HTT100 OR L1_HTT75,1 | 1,L1_HTT75 OR L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175, 1|1|1|1|1,180,180,2.59,+/-,0.01,466.12,+/-,3.04,2.59,+/-,0.02,0.08%,+/-,0.72%
+HLT_Photon90_CaloIdL_PFHT600,L1_SingleEG40,1,L1_SingleEG40, 1,1,1,2.56,+/-,0.01,2.61,+/-,0.23,2.61,+/-,0.23,1.90%,+/-,8.58%
+HLT_Mu17_Mu8_SameSign_DZ,L1_DoubleMu_10_3p5,1,L1_DoubleMu_10_3p5 OR L1_DoubleMu_12_5, 1|1,1,1,2.47,+/-,0.01,2.63,+/-,0.23,2.63,+/-,0.23,6.07%,+/-,8.18%
+HLT_Mu17_TrkIsoVVL_Ele12_CaloIdL_TrackIdL_IsoVL,L1_Mu12_EG10,1,L1_Mu12_EG10, 1,1,1,2.46,+/-,0.01,2.78,+/-,0.24,2.78,+/-,0.24,11.63%,+/-,7.47%
+HLT_Dimuon13_PsiPrime,L1_DoubleMu_10_0_WdEta18,1,L1_DoubleMu_10_0_WdEta18, 1,1,1,2.43,+/-,0.01,2.05,+/-,0.20,2.05,+/-,0.20,15.53%,+/-,7.04%
+HLT_Photon75_R9Id90_HE10_IsoM,L1_SingleEG25 OR L1_SingleEG40,1 | 1,L1_SingleEg25 OR L1_SingleEG40, -1||1,12,12,2.42,+/-,0.01,17.36,+/-,0.59,1.45,+/-,0.05,40.13%,+/-,1.25%
+HLT_DoubleJet90_Double30_TripleBTagCSV0p67,L1_TripleJet_92_76_64_VBF,1,L1_TripleJet_92_76_64_VBF OR L1_DoubleJetC100 OR L1_TripleJet_84_68_48_VBF OR L1_DoubleJetC84 OR L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175, 1|1|1|1|1|1|1|1,1,1,2.41,+/-,0.01,2.27,+/-,0.21,2.27,+/-,0.21,6.00%,+/-,8.28%
+HLT_Photon120_R9Id90_HE10_IsoM,L1_SingleEG25 OR L1_SingleEG40,1 | 1,L1_SingleEg25 OR L1_SingleEG40, -1||1,2,2,2.39,+/-,0.01,2.98,+/-,0.24,1.49,+/-,0.12,37.53%,+/-,3.20%
+HLT_Ele45_CaloIdVT_GsfTrkIdT_PFJet200_PFJet50,L1_SingleEG40,1,L1_SingleEG40, 1,1,1,2.37,+/-,0.01,2.09,+/-,0.20,2.09,+/-,0.20,11.75%,+/-,7.61%
+HLT_Photon250_NoHE,L1_SingleEG40 OR L1_SingleJet200,1 | 1,L1_SingleEG40 OR L1_SingleJet200, 1|1,1,1,2.36,+/-,0.01,2.47,+/-,0.22,2.47,+/-,0.22,4.13%,+/-,8.62%
+HLT_Mu16_TkMu0_dEta18_Phi,L1_SingleMu16 OR L1_SingleMu14er,1 | 200,L1_SingleMu14er OR L1_SingleMu16, 200|1,1,1,2.36,+/-,0.01,2.57,+/-,0.23,2.57,+/-,0.23,7.85%,+/-,8.12%
+HLT_Mu8_Ele8_CaloIdM_TrackIdM_Mass8_PFHT250,L1_Mu8_HTT50 OR L1_HTT100,1 | 1,L1_Mu8_HTT50 OR L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175, 1|1|1|1|1,1,1,2.36,+/-,0.01,2.69,+/-,0.23,2.69,+/-,0.23,11.97%,+/-,7.58%
+HLT_PFHT400_DiPFJetAve90_PFAlphaT0p51,L1_HTT100 OR L1_HTT75,1 | 1,L1_HTT75 OR L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175 OR L1_HTT200 OR L1_HTT250 OR L1_ETM40 OR L1_ETM50 OR L1_ETM60 OR L1_ETM70 OR L1_ETM100, 1|1|1|1|1|1|1|5000|1|1|1|1,1,1,2.33,+/-,0.01,2.49,+/-,0.22,2.49,+/-,0.22,6.18%,+/-,8.40%
+HLT_Ele27_WPLoose_Gsf_TriCentralPFJet50_40_30,L1_SingleIsoEG20 OR L1_SingleIsoEG20er,1 | 1,L1_SingleIsoEG20er OR L1_SingleEG20 OR L1_SingleEG25, 10|10|1,1,1,2.33,+/-,0.01,2.33,+/-,0.22,2.33,+/-,0.22,0.16%,+/-,9.22%
+HLT_RsqMR270_Rsq0p09_MR200,L1_HTT100 OR L1_HTT75,1 | 1,L1_HTT75 OR L1_HTT100 OR L1_HTT175 OR L1_SingleJet200 OR L1_DoubleJetC100 OR L1_QuadJetC60, 1|1|1|1|1|1,1,1,2.32,+/-,0.01,2.23,+/-,0.21,2.23,+/-,0.21,3.84%,+/-,8.74%
+HLT_DoubleJetsC112_DoubleBTagCSV0p9_DoublePFJetsC112MaxDeta1p6,L1_DoubleJetC112,1,L1_DoubleJetC112, 1,1,1,2.28,+/-,0.01,2.33,+/-,0.22,2.33,+/-,0.22,2.01%,+/-,9.06%
+HLT_PFHT400,L1_HTT100 OR L1_HTT75,1 | 1,L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175, 1|1|1|1,120,120,2.26,+/-,0.01,269.18,+/-,2.31,2.24,+/-,0.02,0.89%,+/-,0.91%
+HLT_DoubleIsoMu17_eta2p1,L1_DoubleMu_12_5,1,L1_DoubleMu_12_5, 1,1,1,2.26,+/-,0.01,2.55,+/-,0.23,2.55,+/-,0.23,11.40%,+/-,7.84%
+HLT_Photon50_R9Id90_HE10_IsoM,L1_SingleEG25 OR L1_SingleEG40,1 | 1,L1_SingleEg25 OR L1_SingleEG40, -1||1,48,48,2.25,+/-,0.01,74.71,+/-,1.22,1.56,+/-,0.03,30.85%,+/-,0.85%
+HLT_DoublePhoton60,L1_SingleEG35 OR L1_SingleEG40,1 | 1,L1_SingleEG35 OR L1_SingleEG40 OR L1_SingleJet200, 1|1|1,1,1,2.24,+/-,0.01,2.15,+/-,0.21,2.15,+/-,0.21,4.21%,+/-,8.83%
+HLT_HT250_DisplacedDijet40_DisplacedTrack,L1_HTT100 OR L1_HTT75,1 | 1,L1_HTT75 OR L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175 OR L1_HTT200, 1|1|1|1|1|1,1,1,2.24,+/-,0.01,2.49,+/-,0.22,2.49,+/-,0.22,9.99%,+/-,8.06%
+HLT_Ele17_Ele12_CaloIdL_TrackIdL_IsoVL,L1_DoubleEG_15_10,1,L1_DoubleEG_15_10, 1,7,7,2.23,+/-,0.01,12.11,+/-,0.49,1.73,+/-,0.07,22.56%,+/-,2.45%
+HLT_PFHT475,L1_HTT100 OR L1_HTT75,1 | 1,L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175, 1|1|1|1,60,60,2.22,+/-,0.01,132.37,+/-,1.62,2.21,+/-,0.03,0.76%,+/-,1.25%
+HLT_QuadJet45_TripleBTagCSV0p67,L1_QuadJetC60 OR L1_HTT175,1 | 1,L1_HTT175 OR L1_QuadJetC60 OR L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_QuadJetC40, 1|1|1|1|1|1,1,1,2.22,+/-,0.01,2.31,+/-,0.21,2.31,+/-,0.21,3.99%,+/-,8.92%
+HLT_DiPFJetAve320,L1_SingleJet128 OR L1_SingleJet176,1 | 1,L1_SingleJet128 OR L1_SingleJet176, 1|1,10,10,2.22,+/-,0.01,14.80,+/-,0.54,1.48,+/-,0.05,33.19%,+/-,1.67%
+HLT_PFMET300,L1_ETM60 OR L1_ETM70,1 | 1,L1_ETM60 OR L1_ETM70, 1|1,1,1,2.21,+/-,0.01,1.81,+/-,0.19,1.81,+/-,0.19,17.96%,+/-,7.06%
+HLT_HT550_DisplacedDijet40_Inclusive,L1_HTT125 OR L1_HTT150,1 | 1,L1_HTT125 OR L1_HTT150 OR L1_HTT175 OR L1_HTT200, 1|1|1|1,1,1,2.20,+/-,0.01,2.17,+/-,0.21,2.17,+/-,0.21,1.51%,+/-,9.30%
+HLT_Dimuon0er16_Jpsi_NoOS_NoVertexing,L1_DoubleMu0_Eta1p6_WdEta18 OR L1_DoubleMu0,1 | 150,L1_DoubleMu0_Eta1p6_WdEta18, 1,36,36,2.20,+/-,0.01,57.74,+/-,1.07,1.60,+/-,0.03,27.00%,+/-,1.04%
+HLT_DiPFJetAve400,L1_SingleJet128 OR L1_SingleJet176,1 | 1,L1_SingleJet128 OR L1_SingleJet176, 1|1,3,3,2.19,+/-,0.01,4.85,+/-,0.31,1.62,+/-,0.10,26.27%,+/-,3.50%
+HLT_PFHT250_DiPFJetAve90_PFAlphaT0p58,L1_HTT100 OR L1_HTT75,1 | 1,L1_HTT75 OR L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175 OR L1_HTT200 OR L1_HTT250 OR L1_ETM40 OR L1_ETM50 OR L1_ETM60 OR L1_ETM70 OR L1_ETM100, 1|1|1|1|1|1|1|5000|1|1|1|1,1,1,2.14,+/-,0.01,2.03,+/-,0.20,2.03,+/-,0.20,5.38%,+/-,8.87%
+HLT_DiPFJetAve200,L1_SingleJet128,1,L1_SingleJet128, 1,85,85,2.14,+/-,0.01,135.51,+/-,1.64,1.59,+/-,0.02,25.43%,+/-,0.75%
+HLT_Diphoton30_18_R9Id_OR_IsoCaloId_AND_HE_R9Id_DoublePixelSeedMatch_Mass70,L1_SingleEG25 OR L1_SingleEG40,1 | 1,L1_SingleEG40 OR L1_SingleEG25 OR L1_DoubleEG_22_10 OR L1_DoubleEG_15_10, 1|1|1|1,1,1,2.14,+/-,0.01,2.29,+/-,0.21,2.29,+/-,0.21,6.62%,+/-,8.71%
+HLT_PFHT350_DiPFJetAve90_PFAlphaT0p52,L1_HTT100 OR L1_HTT75,1 | 1,L1_HTT75 OR L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175 OR L1_HTT200 OR L1_HTT250 OR L1_ETM40 OR L1_ETM50 OR L1_ETM60 OR L1_ETM70 OR L1_ETM100, 1|1|1|1|1|1|1|5000|1|1|1|1,1,1,2.11,+/-,0.01,2.65,+/-,0.23,2.65,+/-,0.23,20.25%,+/-,6.92%
+HLT_Dimuon0_Upsilon_Muon,L1_TripleMu0,1,L1_TripleMu0, 1,1,1,2.11,+/-,0.01,1.89,+/-,0.19,1.89,+/-,0.19,10.41%,+/-,8.24%
+HLT_DoubleMu33NoFiltersNoVtx,L1_DoubleMu_10_3p5,1,L1_DoubleMu_10_3p5 OR L1_DoubleMu_12_5, 1|1,1,1,2.05,+/-,0.01,2.88,+/-,0.24,2.88,+/-,0.24,29.03%,+/-,5.90%
+HLT_LooseIsoPFTau50_Trk30_eta2p1,L1_QuadJetC36_TauJet52,7,L1_QuadJetC36_TauJet52, 7,4,4,2.05,+/-,0.01,8.65,+/-,0.41,2.16,+/-,0.10,5.38%,+/-,4.55%
+HLT_Dimuon0er16_Jpsi_NoVertexing,L1_DoubleMu0_Eta1p6_WdEta18 OR L1_DoubleMu0_Eta1p6_WdEta18_OS OR L1_DoubleMu0,1 | 1 | 150,L1_DoubleMu0_Eta1p6_WdEta18_OS, 1,35,35,2.00,+/-,0.01,54.10,+/-,1.04,1.55,+/-,0.03,22.76%,+/-,1.20%
+HLT_Ele27_WPLoose_Gsf_WHbbBoost,L1_SingleIsoEG20 OR L1_SingleIsoEG20er,1 | 1,L1_SingleIsoEG20er OR L1_SingleEG20 OR L1_SingleEG25, 10|10|1,1,1,1.95,+/-,0.01,1.87,+/-,0.19,1.87,+/-,0.19,4.14%,+/-,9.48%
+HLT_Mu25_TkMu0_dEta18_Onia,L1_SingleMu16 OR L1_SingleMu20 OR L1_SingleMu20er,1 | 1 | 1,L1_SingleMu16 OR L1_SingleMu20er OR L1_SingleMu25, 1|1|1,1,1,1.91,+/-,0.01,1.71,+/-,0.18,1.71,+/-,0.18,10.55%,+/-,8.63%
+HLT_DoubleJetsC100_DoubleBTagCSV0p85_DoublePFJetsC160,L1_DoubleJetC100,1,L1_DoubleJetC100, 1,1,1,1.89,+/-,0.01,1.91,+/-,0.19,1.91,+/-,0.19,1.22%,+/-,10.09%
+HLT_PFHT300_DiPFJetAve90_PFAlphaT0p54,L1_HTT100 OR L1_HTT75,1 | 1,L1_HTT75 OR L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175 OR L1_HTT200 OR L1_HTT250 OR L1_ETM40 OR L1_ETM50 OR L1_ETM60 OR L1_ETM70 OR L1_ETM100, 1|1|1|1|1|1|1|5000|1|1|1|1,1,1,1.88,+/-,0.01,1.93,+/-,0.20,1.93,+/-,0.20,2.67%,+/-,9.89%
+HLT_BTagMu_Jet300_Mu5,L1_SingleJet200,1,L1_SingleJet200, 1,1,1,1.83,+/-,0.01,2.19,+/-,0.21,2.19,+/-,0.21,16.33%,+/-,7.98%
+HLT_DiPFJetAve160_HFJEC,L1_SingleJet128,1,L1_SingleJet128, 1,16,16,1.83,+/-,0.01,22.58,+/-,0.67,1.41,+/-,0.04,22.85%,+/-,1.80%
+HLT_PFJet140,L1_SingleJet92,1000,L1_SingleJet92, 2000,1,1,1.78,+/-,0.01,1.93,+/-,0.20,1.93,+/-,0.20,7.75%,+/-,9.37%
+HLT_CaloMHTNoPU90_PFMET90_PFMHT90_IDTight_BTagCSV0p72,L1_ETM70,1,L1_ETM70 OR L1_DoubleJetC56_ETM60 OR L1_ETM60 OR L1_ETM50, 1|1|1|1,1,1,1.78,+/-,0.01,2.17,+/-,0.21,2.17,+/-,0.21,18.02%,+/-,7.86%
+HLT_DiPFJetAve40,L1_ZeroBias,7591,L1_ZeroBias, 10000,12,12,1.76,+/-,0.01,15.20,+/-,0.55,1.27,+/-,0.05,28.04%,+/-,1.91%
+HLT_L1SingleMu16,L1_SingleMu16,1,L1_SingleMu16, 1,5000,5000,1.75,+/-,0.01,6646.76,+/-,11.50,1.33,+/-,0.00,23.84%,+/-,0.39%
+HLT_IsoMu17_eta2p1,L1_SingleMu16 OR L1_SingleMu16er,1 | 1,L1_SingleMu16er, 1,80,80,1.73,+/-,0.01,107.49,+/-,1.46,1.34,+/-,0.02,22.28%,+/-,0.90%
+HLT_QuadPFJet_SingleBTagCSV_VBF_Mqq500,L1_TripleJet_92_76_64_VBF,1,L1_TripleJet_92_76_64_VBF OR L1_TripleJet_84_68_48_VBF OR L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175 OR L1_SingleJet128 OR L1_DoubleJetC84, 1|1|1|1|1|1|1|1,1,1,1.70,+/-,0.01,1.57,+/-,0.18,1.57,+/-,0.18,7.51%,+/-,9.63%
+HLT_PFJet320,L1_SingleJet128 OR L1_SingleJet200,1 | 1,L1_SingleJet128 OR L1_SingleJet200, 1|1,21,21,1.68,+/-,0.01,26.51,+/-,0.73,1.26,+/-,0.03,24.94%,+/-,1.59%
+HLT_PFHT350_DiPFJetAve90_PFAlphaT0p53,L1_HTT100 OR L1_HTT75,1 | 1,L1_HTT75 OR L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175 OR L1_HTT200 OR L1_HTT250 OR L1_ETM40 OR L1_ETM50 OR L1_ETM60 OR L1_ETM70 OR L1_ETM100, 1|1|1|1|1|1|1|5000|1|1|1|1,1,1,1.67,+/-,0.01,1.99,+/-,0.20,1.99,+/-,0.20,16.22%,+/-,8.38%
+HLT_Ele15_IsoVVVL_PFHT350_PFMET50,L1_SingleEG5,1,L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175, 1|1|1|1,1,1,1.65,+/-,0.01,1.43,+/-,0.17,1.43,+/-,0.17,13.07%,+/-,8.91%
+HLT_L2DoubleMu28_NoVertex_2Cha_Angle2p5_Mass10,L1_DoubleMu_10_3p5,1,L1_DoubleMu_10_3p5 OR L1_DoubleMu_12_5, 1|1,1,1,1.64,+/-,0.01,2.01,+/-,0.20,2.01,+/-,0.20,18.41%,+/-,8.12%
+HLT_PFJet400,L1_SingleJet128 OR L1_SingleJet200,1 | 1,L1_SingleJet128 OR L1_SingleJet200, 1|1,7,7,1.62,+/-,0.01,8.53,+/-,0.41,1.22,+/-,0.06,24.98%,+/-,2.75%
+HLT_Mu7p5_Track2_Jpsi,L1_SingleMu7 OR L1_SingleMu5,125 | 262139,L1_SingleMu5 OR L1_SingleMu7, 262139|125,1,1,1.60,+/-,0.01,1.47,+/-,0.17,1.47,+/-,0.17,7.81%,+/-,9.89%
+HLT_DoubleEle24_22_eta2p1_WPLoose_Gsf,L1_DoubleEG_22_10,1,L1_DoubleEG_22_10, 1,1,1,1.59,+/-,0.01,1.45,+/-,0.17,1.45,+/-,0.17,8.52%,+/-,9.80%
+HLT_Mu38NoFiltersNoVtxDisplaced_DisplacedJet60_Loose,L1_SingleMu16 OR L1_SingleMu25,1 | 1,L1_SingleMu16 OR L1_SingleMu25, 1|1,1,1,1.58,+/-,0.01,1.35,+/-,0.16,1.35,+/-,0.16,14.29%,+/-,8.92%
+HLT_Ele23_CaloIdL_TrackIdL_IsoVL,L1_SingleEG20,1,L1_SingleEG20, 10,1000,1000,1.57,+/-,0.01,1195.96,+/-,4.88,1.20,+/-,0.00,23.69%,+/-,0.46%
+HLT_DoubleEle8_CaloIdM_TrackIdM_Mass8_PFHT250,L1_DoubleEG6_HTT150 OR L1_HTT100,1 | 1,L1_DoubleEG6_HTT150 OR L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175, 1|1|1|1|1,1,1,1.55,+/-,0.01,1.43,+/-,0.17,1.43,+/-,0.17,7.86%,+/-,10.01%
+HLT_PFJet260,L1_SingleJet128 OR L1_SingleJet200,1 | 1,L1_SingleJet128 OR L1_SingleJet200, 1|1,63,63,1.54,+/-,0.01,73.06,+/-,1.21,1.16,+/-,0.02,24.89%,+/-,1.01%
+HLT_IsoMu16_eta2p1_MET30_LooseIsoPFTau50_Trk30_eta2p1,L1_Mu14er_ETM30 OR L1_Mu10er_ETM30,1 | 1,L1_Mu10er_ETM30 OR L1_Mu14er_ETM30, 1|1,1,1,1.51,+/-,0.01,1.45,+/-,0.17,1.45,+/-,0.17,3.68%,+/-,10.87%
+HLT_Photon135_PFMET100,L1_SingleEG40 OR L1_SingleJet200,1 | 1,L1_SingleEG40 OR L1_SingleJet200, 1|1,1,1,1.50,+/-,0.01,1.45,+/-,0.17,1.45,+/-,0.17,3.40%,+/-,10.93%
+HLT_DoubleJetsC112_DoubleBTagCSV0p85_DoublePFJetsC172,L1_DoubleJetC112,1,L1_DoubleJetC112, 1,1,1,1.48,+/-,0.01,1.55,+/-,0.18,1.55,+/-,0.18,4.68%,+/-,10.80%
+HLT_Mu8_Ele8_CaloIdM_TrackIdM_Mass8_PFHT300,L1_Mu8_HTT50 OR L1_HTT100,1 | 1,L1_Mu8_HTT50 OR L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175, 1|1|1|1|1,1,1,1.48,+/-,0.01,1.65,+/-,0.18,1.65,+/-,0.18,10.45%,+/-,9.84%
+HLT_DiPFJetAve500,L1_SingleJet128 OR L1_SingleJet176,1 | 1,L1_SingleJet128 OR L1_SingleJet176, 1|1,1,1,1.47,+/-,0.01,1.85,+/-,0.19,1.85,+/-,0.19,20.33%,+/-,8.27%
+HLT_Ele15_IsoVVVL_PFHT600,L1_SingleEG5,1,L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175, 1|1|1|1,1,1,1.42,+/-,0.01,1.43,+/-,0.17,1.43,+/-,0.17,0.73%,+/-,11.71%
+HLT_Mu7p5_Track3p5_Jpsi,L1_SingleMu7 OR L1_SingleMu5,125 | 262139,L1_SingleMu5 OR L1_SingleMu7, 262139|125,1,1,1.41,+/-,0.01,1.29,+/-,0.16,1.29,+/-,0.16,8.41%,+/-,10.41%
+HLT_TkMu20,L1_SingleMu16,1,L1_SingleMu16, 1,300,300,1.41,+/-,0.01,313.06,+/-,2.50,1.04,+/-,0.01,25.81%,+/-,0.61%
+HLT_Photon22_R9Id90_HE10_Iso40_EBOnly_VBF,L1_SingleEG20,1,L1_SingleEG20, 10,30,30,1.40,+/-,0.01,30.65,+/-,0.78,1.02,+/-,0.03,27.16%,+/-,1.42%
+HLT_DoubleMu8_Mass8_PFHT250,L1_Mu8_HTT50 OR L1_HTT100,1 | 1,L1_Mu8_HTT50 OR L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175, 1|1|1|1|1,1,1,1.39,+/-,0.01,1.35,+/-,0.16,1.35,+/-,0.16,3.01%,+/-,11.42%
+HLT_DoubleJet90_Double30_DoubleBTagCSV0p67,L1_TripleJet_92_76_64_VBF,1,L1_TripleJet_92_76_64_VBF OR L1_DoubleJetC100 OR L1_TripleJet_84_68_48_VBF OR L1_DoubleJetC84 OR L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175, 1|1|1|1|1|1|1|1,18,18,1.33,+/-,0.01,17.50,+/-,0.59,0.97,+/-,0.03,26.85%,+/-,1.85%
+HLT_Mu33NoFiltersNoVtxDisplaced_DisplacedJet50_Tight,L1_SingleMu16 OR L1_SingleMu25,1 | 1,L1_SingleMu16 OR L1_SingleMu25, 1|1,1,1,1.30,+/-,0.01,1.21,+/-,0.16,1.21,+/-,0.16,6.82%,+/-,11.13%
+HLT_RsqMR240_Rsq0p09_MR200_4jet,L1_HTT100 OR L1_HTT75,1 | 1,L1_HTT75 OR L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175 OR L1_SingleJet128 OR L1_SingleJet176 OR L1_SingleJet200 OR L1_DoubleJetC84 OR L1_DoubleJetC100 OR L1_QuadJetC40 OR L1_QuadJetC60, 1|1|1|1|1|1|1|1|1|1|1|1,1,1,1.26,+/-,0.01,1.15,+/-,0.15,1.15,+/-,0.15,8.12%,+/-,11.09%
+HLT_DoubleMu38NoFiltersNoVtx,L1_DoubleMu_10_3p5,1,L1_DoubleMu_10_3p5 OR L1_DoubleMu_12_5, 1|1,1,1,1.24,+/-,0.01,1.69,+/-,0.18,1.69,+/-,0.18,26.63%,+/-,7.96%
+HLT_Mu40_eta2p1_PFJet200_PFJet50,L1_SingleMu16 OR L1_SingleMu16er OR L1_SingleMu20 OR L1_SingleMu20er,1 | 1 | 1 | 1,L1_SingleMu16er OR L1_SingleMu20er, 1|1,1,1,1.22,+/-,0.01,1.15,+/-,0.15,1.15,+/-,0.15,5.56%,+/-,11.72%
+HLT_IsoTrackHE,L1_SingleJet68,750,L1_SingleJet68, 750,1,1,1.21,+/-,0.01,1.03,+/-,0.14,1.03,+/-,0.14,14.55%,+/-,10.13%
+HLT_DoubleMu4_PsiPrimeTrk_Displaced,L1_DoubleMu0_Eta1p6_WdEta18 OR L1_DoubleMu0,1 | 150,L1_DoubleMu0_Eta1p6_WdEta18 OR L1_DoubleMu0_Eta1p6_WdEta18_OS OR L1_DoubleMu_10_0_WdEta18, 1|1|1,1,1,1.21,+/-,0.01,0.99,+/-,0.14,0.99,+/-,0.14,17.62%,+/-,9.61%
+HLT_Photon22_R9Id90_HE10_Iso40_EBOnly_PFMET40,L1_SingleEG20,1,L1_SingleEG20, 10,90,90,1.20,+/-,0.01,81.69,+/-,1.27,0.91,+/-,0.01,24.56%,+/-,1.00%
+HLT_VBF_DisplacedJet40_DisplacedTrack_2TrackIP2DSig5,L1_TripleJet_92_76_64_VBF,1,L1_TripleJet_92_76_64_VBF OR L1_HTT175, 1|1,1,1,1.20,+/-,0.01,1.09,+/-,0.15,1.09,+/-,0.15,8.95%,+/-,11.19%
+HLT_IsoMu18_TriCentralPFJet50_40_30,L1_SingleMu16,1,L1_SingleMu16, 1,1,1,1.19,+/-,0.01,1.23,+/-,0.16,1.23,+/-,0.16,3.55%,+/-,12.26%
+HLT_PFHT400_DiPFJetAve90_PFAlphaT0p52,L1_HTT100 OR L1_HTT75,1 | 1,L1_HTT75 OR L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175 OR L1_HTT200 OR L1_HTT250 OR L1_ETM40 OR L1_ETM50 OR L1_ETM60 OR L1_ETM70 OR L1_ETM100, 1|1|1|1|1|1|1|5000|1|1|1|1,1,1,1.18,+/-,0.01,1.37,+/-,0.17,1.37,+/-,0.17,13.83%,+/-,10.38%
+HLT_PFHT200,L1_HTT100 OR L1_HTT75,1 | 1,L1_HTT75 OR L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175, 1|1|1|1|1,3060,3060,1.18,+/-,0.01,3640.55,+/-,8.51,1.19,+/-,0.00,0.79%,+/-,0.51%
+HLT_Ele27_eta2p1_WPLoose_Gsf_DoubleMediumIsoPFTau35_Trk1_eta2p1_Reg,L1_SingleIsoEG22er,1,L1_SingleIsoEG22er OR L1_SingleEG25, 1|1,1,1,1.16,+/-,0.01,1.23,+/-,0.16,1.23,+/-,0.16,5.90%,+/-,11.96%
+HLT_Mu16_eta2p1_MET30,L1_Mu14er_ETM30,1,L1_Mu14er_ETM30, 1,80,80,1.15,+/-,0.01,75.54,+/-,1.23,0.94,+/-,0.02,17.84%,+/-,1.19%
+HLT_Mu20_Mu10_SameSign_DZ,L1_DoubleMu_10_3p5,1,L1_DoubleMu_10_3p5 OR L1_DoubleMu_12_5, 1|1,1,1,1.15,+/-,0.01,1.19,+/-,0.15,1.19,+/-,0.15,4.02%,+/-,12.40%
+HLT_QuadJet45_DoubleBTagCSV0p67,L1_QuadJetC60 OR L1_HTT175,1 | 1,L1_HTT175 OR L1_QuadJetC60 OR L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_QuadJetC40, 1|1|1|1|1|1,18,18,1.14,+/-,0.01,15.38,+/-,0.55,0.85,+/-,0.03,25.31%,+/-,2.06%
+HLT_Mu23_TrkIsoVVL_Ele12_CaloIdL_TrackIdL_IsoVL,L1_Mu20_EG10,1,L1_Mu20_EG10, 1,1,1,1.14,+/-,0.01,1.17,+/-,0.15,1.17,+/-,0.15,2.67%,+/-,12.68%
+HLT_Mu6_PFHT200_PFMET80_BTagCSV0p72,L1_Mu6_HTT100,1,L1_Mu6_HTT100, 1,1,1,1.14,+/-,0.01,1.11,+/-,0.15,1.11,+/-,0.15,2.47%,+/-,12.72%
+HLT_Photon22_R9Id90_HE10_IsoM,L1_SingleEG20,1,L1_SingleEG20, 10,2000,2000,1.13,+/-,0.01,1510.01,+/-,5.48,0.76,+/-,0.00,33.37%,+/-,0.49%
+HLT_JetE50_NoBPTX3BX_NoHalo,L1_SingleJetC32_NotBptxOR,1,L1_SingleJetC32_NotBptxOR, 1,1,1,1.11,+/-,0.01,1.19,+/-,0.15,1.19,+/-,0.15,6.61%,+/-,12.06%
+HLT_Ele27_eta2p1_WPLoose_Gsf_DoubleMediumIsoPFTau40_Trk1_eta2p1_Reg,L1_SingleIsoEG22er,1,L1_SingleIsoEG22er OR L1_SingleEG25, 1|1,1,1,1.10,+/-,0.01,1.17,+/-,0.15,1.17,+/-,0.15,6.22%,+/-,12.22%
+HLT_Photon75_R9Id90_HE10_Iso40_EBOnly_VBF,L1_SingleEG40,1,L1_SingleEG40, 1,1,1,1.09,+/-,0.01,0.99,+/-,0.14,0.99,+/-,0.14,9.13%,+/-,11.69%
+HLT_Ele15_IsoVVVL_BTagCSV0p72_PFHT400,L1_SingleEG5,1,L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175, 1|1|1|1,3,3,1.08,+/-,0.01,2.37,+/-,0.22,0.79,+/-,0.07,27.24%,+/-,4.88%
+HLT_Ele12_CaloIdL_TrackIdL_IsoVL_PFJet30,L1_SingleEG10 OR L1_SingleEG15,10000 | 12000,L1_SingleEG15 OR L1_SingleEG10, 12000|10000,1,1,1.08,+/-,0.01,152.68,+/-,1.74,152.68,+/-,1.74,99.29%,+/-,0.01%
+HLT_Mu30_Ele30_CaloIdL_GsfTrkIdVL,L1_SingleMu16 OR L1_SingleMu25,1 | 1,L1_SingleMu16 OR L1_SingleMu25, 1|1,1,1,1.06,+/-,0.01,1.05,+/-,0.14,1.05,+/-,0.14,0.49%,+/-,13.61%
+HLT_Ele23_CaloIdM_TrackIdM_PFJet30,L1_SingleEG20,1,L1_SingleEG20, 10,650,650,1.06,+/-,0.01,590.29,+/-,3.43,0.91,+/-,0.01,13.97%,+/-,0.65%
+HLT_LooseIsoPFTau50_Trk30_eta2p1_MET120,L1_ETM60 OR L1_ETM70,1 | 1,L1_ETM60 OR L1_ETM70, 1|1,1,1,1.05,+/-,0.01,1.07,+/-,0.15,1.07,+/-,0.15,2.46%,+/-,13.28%
+HLT_L2Mu10_NoVertex_NoBPTX,L1_SingleMuOpen OR L1_SingleMuOpen_NotBptxOR,262139 | 1,L1_SingleMuOpen_NotBptxOR, 1,70,70,1.03,+/-,0.01,57.76,+/-,1.07,0.83,+/-,0.02,19.90%,+/-,1.29%
+HLT_Mu15_IsoVVVL_PFHT350_PFMET50,L1_SingleMuOpen,262139,L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175, 1|1|1|1,1,1,1.02,+/-,0.01,1.25,+/-,0.16,1.25,+/-,0.16,18.32%,+/-,10.30%
+HLT_Photon300_NoHE,L1_SingleEG40 OR L1_SingleJet200,1 | 1,L1_SingleEG40 OR L1_SingleJet200, 1|1,1,1,1.01,+/-,0.00,1.03,+/-,0.14,1.03,+/-,0.14,2.05%,+/-,13.59%
+HLT_IsoMu22_TriCentralPFJet50_40_30,L1_SingleMu20,1,L1_SingleMu20, 1,1,1,1.00,+/-,0.00,1.07,+/-,0.15,1.07,+/-,0.15,7.30%,+/-,12.62%
+HLT_VBF_DisplacedJet40_DisplacedTrack,L1_TripleJet_92_76_64_VBF,1,L1_TripleJet_92_76_64_VBF OR L1_HTT175, 1|1,1,1,0.99,+/-,0.00,0.88,+/-,0.13,0.88,+/-,0.13,11.48%,+/-,11.82%
+HLT_Dimuon6_Jpsi_NoVertexing,L1_DoubleMu0,150,L1_DoubleMu0, 150,1,1,0.98,+/-,0.00,1.05,+/-,0.14,1.05,+/-,0.14,6.82%,+/-,12.81%
+HLT_PFJet80,L1_SingleJet52,4000,L1_SingleJet52, 4000,5,5,0.98,+/-,0.00,5.13,+/-,0.32,1.03,+/-,0.06,4.99%,+/-,5.93%
+HLT_Mu24_eta2p1,L1_SingleMu20 OR L1_SingleMu20er,1 | 1,L1_SingleMu20er, 1,250,250,0.97,+/-,0.00,165.15,+/-,1.81,0.66,+/-,0.01,31.69%,+/-,0.72%
+HLT_IsoTrackHB,L1_SingleJet68,750,L1_SingleJet68, 750,1,1,0.97,+/-,0.00,0.91,+/-,0.13,0.91,+/-,0.13,5.26%,+/-,13.24%
+HLT_Mu10_CentralPFJet30_BTagCSV0p54PF,,,L1_Jet32_DoubleMu_Open_10_MuMuNotWdPhi23_JetMuWdPhi1, 3,22,22,0.95,+/-,0.00,21.56,+/-,0.65,0.98,+/-,0.03,3.08%,+/-,2.98%
+HLT_Mu20_Mu10,L1_DoubleMu_10_3p5,1,L1_DoubleMu_10_3p5 OR L1_DoubleMu_12_5, 1|1,14,14,0.95,+/-,0.00,10.58,+/-,0.46,0.76,+/-,0.03,20.14%,+/-,2.81%
+HLT_DoubleMu8_Mass8_PFHT300,L1_Mu8_HTT50 OR L1_HTT100,1 | 1,L1_Mu8_HTT50 OR L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175, 1|1|1|1|1,1,1,0.92,+/-,0.00,0.93,+/-,0.14,0.93,+/-,0.14,1.66%,+/-,14.35%
+HLT_DoubleEle8_CaloIdM_TrackIdM_Mass8_PFHT300,L1_DoubleEG6_HTT150 OR L1_HTT100,1 | 1,L1_DoubleEG6_HTT150 OR L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175, 1|1|1|1|1,1,1,0.90,+/-,0.00,0.68,+/-,0.12,0.68,+/-,0.12,25.16%,+/-,9.62%
+HLT_DiPFJetAve260,L1_SingleJet128 OR L1_SingleJet176,1 | 1,L1_SingleJet128 OR L1_SingleJet176, 1|1,60,60,0.90,+/-,0.00,39.78,+/-,0.89,0.66,+/-,0.01,25.99%,+/-,1.33%
+HLT_Mu28NoFiltersNoVtxDisplaced_Photon28_CaloIdL,L1_Mu5_EG20,1,L1_Mu5_EG20, 1,1,1,0.90,+/-,0.00,1.05,+/-,0.14,1.05,+/-,0.14,15.09%,+/-,11.67%
+HLT_Mu27,L1_SingleMu25,1,L1_SingleMu25, 1,180,180,0.88,+/-,0.00,118.45,+/-,1.53,0.66,+/-,0.01,24.95%,+/-,0.90%
+HLT_PFMET400,L1_ETM60 OR L1_ETM70,1 | 1,L1_ETM60 OR L1_ETM70, 1|1,1,1,0.87,+/-,0.00,0.64,+/-,0.11,0.64,+/-,0.11,27.06%,+/-,9.42%
+HLT_Photon22,L1_SingleEG20,1,L1_SingleEG20, 10,10000,10000,0.86,+/-,0.00,7255.41,+/-,12.01,0.73,+/-,0.00,15.59%,+/-,0.55%
+HLT_Mu6_PFHT200_PFMET100,L1_Mu6_HTT100,1,L1_Mu6_HTT100, 1,1,1,0.86,+/-,0.00,0.82,+/-,0.13,0.82,+/-,0.13,4.87%,+/-,14.14%
+HLT_TkMu27,L1_SingleMu25,1,L1_SingleMu25, 1,180,180,0.85,+/-,0.00,113.95,+/-,1.51,0.63,+/-,0.01,25.33%,+/-,0.91%
+HLT_DiPFJetAve140,L1_SingleJet92,1000,L1_SingleJet92, 2000,2,2,0.84,+/-,0.00,0.93,+/-,0.14,0.47,+/-,0.07,44.02%,+/-,4.60%
+HLT_Mu14er_PFMET100,L1_Mu14er_ETM30 OR L1_Mu10er_ETM30,1 | 1,L1_Mu10er_ETM30 OR L1_Mu14er_ETM30, 1|1,1,1,0.83,+/-,0.00,0.88,+/-,0.13,0.88,+/-,0.13,5.43%,+/-,14.27%
+HLT_PFHT550_4JetPt50,L1_HTT175 OR L1_HTT150,1 | 1,L1_HTT150 OR L1_HTT175, 1|1,36,36,0.82,+/-,0.00,25.84,+/-,0.72,0.72,+/-,0.02,12.96%,+/-,2.17%
+HLT_PFHT300,L1_HTT100 OR L1_HTT75,1 | 1,L1_HTT75 OR L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175, 1|1|1|1|1,1020,1020,0.82,+/-,0.00,851.44,+/-,4.12,0.83,+/-,0.00,1.28%,+/-,0.72%
+HLT_TkMu24_eta2p1,L1_SingleMu20 OR L1_SingleMu20er,1 | 1,L1_SingleMu20er, 1,250,250,0.82,+/-,0.00,156.40,+/-,1.76,0.63,+/-,0.01,24.00%,+/-,0.85%
+HLT_Photon90_R9Id90_HE10_Iso40_EBOnly_PFMET40,L1_SingleEG40,1,L1_SingleEG40, 1,1,1,0.82,+/-,0.00,0.60,+/-,0.11,0.60,+/-,0.11,27.37%,+/-,9.65%
+HLT_PFHT250,L1_HTT100 OR L1_HTT75,1 | 1,L1_HTT75 OR L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175, 1|1|1|1|1,2040,2040,0.82,+/-,0.00,1679.46,+/-,5.78,0.82,+/-,0.00,0.31%,+/-,0.65%
+HLT_TripleMu_12_10_5,L1_TripleMu_5_5_3,1,L1_TripleMu_5_5_3, 1,1,1,0.82,+/-,0.00,1.01,+/-,0.14,1.01,+/-,0.14,19.49%,+/-,11.28%
+HLT_VBF_DisplacedJet40_TightID_DisplacedTrack,L1_TripleJet_92_76_64_VBF,1,L1_TripleJet_92_76_64_VBF OR L1_HTT175, 1|1,1,1,0.79,+/-,0.00,0.70,+/-,0.12,0.70,+/-,0.12,12.01%,+/-,13.10%
+HLT_PFJet60,L1_SingleJet36,7000,L1_SingleJet36, 7000,12,12,0.78,+/-,0.00,9.67,+/-,0.44,0.81,+/-,0.04,3.28%,+/-,4.42%
+HLT_L2DoubleMu38_NoVertex_2Cha_Angle2p5_Mass10,L1_DoubleMu_10_3p5,1,L1_DoubleMu_10_3p5 OR L1_DoubleMu_12_5, 1|1,1,1,0.78,+/-,0.00,0.84,+/-,0.13,0.84,+/-,0.13,6.98%,+/-,14.36%
+HLT_Ele10_CaloIdM_TrackIdM_CentralPFJet30_BTagCSV0p54PF,,,L1_Jet32_MuOpen_EG10_MuEGNotWdPhi3_JetMuWdPhi1, 60,1,1,0.77,+/-,0.00,0.80,+/-,0.13,0.80,+/-,0.13,2.88%,+/-,15.37%
+HLT_Photon165_R9Id90_HE10_IsoM,L1_SingleEG25 OR L1_SingleEG40,1 | 1,L1_SingleEg25 OR L1_SingleEG40 OR L1_SingleJet200, -1||1|1,1,1,0.76,+/-,0.00,0.76,+/-,0.12,0.76,+/-,0.12,0.36%,+/-,16.12%
+HLT_Photon36_R9Id90_HE10_IsoM,L1_SingleEG25,1,L1_SingleEG25, 1,480,480,0.75,+/-,0.00,244.75,+/-,2.21,0.51,+/-,0.00,32.24%,+/-,0.71%
+HLT_Rsq0p25,L1_HTT100 OR L1_HTT75,1 | 1,L1_HTT75 OR L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175 OR L1_SingleJet128 OR L1_SingleJet176 OR L1_SingleJet200 OR L1_DoubleJetC84 OR L1_DoubleJetC100 OR L1_QuadJetC40 OR L1_QuadJetC60, 1|1|1|1|1|1|1|1|1|1|1|1,1,1,0.75,+/-,0.00,0.78,+/-,0.12,0.78,+/-,0.12,3.31%,+/-,15.49%
+HLT_PFMET120_BTagCSV0p72,L1_ETM50 OR L1_ETM60 OR L1_ETM70,1 | 1 | 1,L1_ETM50 OR L1_ETM60 OR L1_ETM70, 1|1|1,1,1,0.74,+/-,0.00,0.80,+/-,0.13,0.80,+/-,0.13,7.38%,+/-,14.66%
+HLT_Mu20_Mu10_DZ,L1_DoubleMu_10_3p5,1,L1_DoubleMu_10_3p5 OR L1_DoubleMu_12_5, 1|1,14,14,0.72,+/-,0.00,8.14,+/-,0.40,0.58,+/-,0.03,19.82%,+/-,3.23%
+HLT_DiPFJetAve60_HFJEC,L1_SingleJet36,7000,L1_SingleJet36, 7000,1,1,0.72,+/-,0.00,0.64,+/-,0.11,0.64,+/-,0.11,11.87%,+/-,13.74%
+HLT_Photon30_R9Id90_HE10_IsoM,L1_SingleEG25,1,L1_SingleEG25, 1,960,960,0.71,+/-,0.00,466.57,+/-,3.05,0.49,+/-,0.00,31.68%,+/-,0.66%
+HLT_Mu15_IsoVVVL_BTagCSV0p72_PFHT400,L1_SingleMuOpen,262139,L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175, 1|1|1|1,3,3,0.70,+/-,0.00,1.45,+/-,0.17,0.48,+/-,0.06,30.46%,+/-,5.69%
+HLT_DiMu9_Ele9_CaloIdL_TrackIdL,L1_DoubleMu7_EG7,1,L1_DoubleMu7_EG7, 1,1,1,0.69,+/-,0.00,0.64,+/-,0.11,0.64,+/-,0.11,7.77%,+/-,15.05%
+HLT_L2Mu10_NoVertex_NoBPTX3BX_NoHalo,L1_SingleMuOpen OR L1_SingleMuOpen_NotBptxOR,262139 | 1,L1_SingleMuOpen_NotBptxOR, 1,70,70,0.68,+/-,0.00,37.77,+/-,0.87,0.54,+/-,0.01,20.31%,+/-,1.58%
+HLT_Mu7p5_L2Mu2_Jpsi,L1_DoubleMu0,150,L1_DoubleMu0, 150,1,1,0.67,+/-,0.00,0.82,+/-,0.13,0.82,+/-,0.13,17.47%,+/-,12.90%
+HLT_Mu17_Mu8,L1_DoubleMu_10_3p5,1,L1_DoubleMu_10_3p5 OR L1_DoubleMu_12_5, 1|1,35,35,0.66,+/-,0.00,18.62,+/-,0.61,0.53,+/-,0.02,19.79%,+/-,2.19%
+HLT_Ele12_CaloIdM_TrackIdM_PFJet30,L1_SingleEG10 OR L1_SingleEG15,10000 | 12000,L1_SingleEG15 OR L1_SingleEG10, 12000|10000,1,1,0.65,+/-,0.00,176.85,+/-,1.88,176.85,+/-,1.88,99.63%,+/-,0.00%
+HLT_Mu38NoFiltersNoVtx_Photon38_CaloIdL,L1_Mu5_EG20,1,L1_Mu5_EG20, 1,1,1,0.65,+/-,0.00,0.82,+/-,0.13,0.82,+/-,0.13,19.74%,+/-,12.54%
+HLT_PFHT650_4JetPt50,L1_HTT175 OR L1_HTT150,1 | 1,L1_HTT150 OR L1_HTT175, 1|1,24,24,0.65,+/-,0.00,13.07,+/-,0.51,0.54,+/-,0.02,16.55%,+/-,2.79%
+HLT_Photon90_R9Id90_HE10_Iso40_EBOnly_VBF,L1_SingleEG40,1,L1_SingleEG40, 1,1,1,0.65,+/-,0.00,0.60,+/-,0.11,0.60,+/-,0.11,7.64%,+/-,15.59%
+HLT_Photon36,L1_SingleEG25,1,L1_SingleEG25, 1,3000,3000,0.64,+/-,0.00,1418.93,+/-,5.31,0.47,+/-,0.00,26.62%,+/-,0.65%
+HLT_Mu38NoFiltersNoVtxDisplaced_DisplacedJet60_Tight,L1_SingleMu16 OR L1_SingleMu25,1 | 1,L1_SingleMu16 OR L1_SingleMu25, 1|1,1,1,0.63,+/-,0.00,0.58,+/-,0.11,0.58,+/-,0.11,8.88%,+/-,15.43%
+HLT_Mu7p5_Track7_Jpsi,L1_SingleMu7 OR L1_SingleMu5,125 | 262139,L1_SingleMu5 OR L1_SingleMu7, 262139|125,1,1,0.63,+/-,0.00,0.52,+/-,0.10,0.52,+/-,0.10,17.95%,+/-,13.22%
+HLT_HT200,L1_HTT125 OR L1_HTT150,1 | 1,L1_HTT125 OR L1_HTT150 OR L1_HTT175 OR L1_HTT200, 1|1|1|1,7100,7100,0.62,+/-,0.00,3313.89,+/-,8.12,0.47,+/-,0.00,25.21%,+/-,0.64%
+HLT_HT350_DisplacedDijet40_DisplacedTrack,L1_HTT125 OR L1_HTT150,1 | 1,L1_HTT125 OR L1_HTT150 OR L1_HTT175 OR L1_HTT200, 1|1|1|1,1,1,0.62,+/-,0.00,0.68,+/-,0.12,0.68,+/-,0.12,8.00%,+/-,15.79%
+HLT_JetE70_NoBPTX3BX_NoHalo,L1_SingleJetC32_NotBptxOR,1,L1_SingleJetC32_NotBptxOR, 1,1,1,0.61,+/-,0.00,0.58,+/-,0.11,0.58,+/-,0.11,5.99%,+/-,16.42%
+HLT_DiPFJetAve100_HFJEC,L1_SingleJet68,750,L1_SingleJet68, 750,1,1,0.61,+/-,0.00,0.68,+/-,0.12,0.68,+/-,0.12,9.70%,+/-,15.50%
+HLT_IsoMu17_eta2p1_MediumIsoPFTau35_Trk1_eta2p1_Reg,L1_Mu16er_IsoTau28er,1,L1_Mu16er_IsoTau28er OR L1_Mu16er_IsoTau32er OR L1_Mu16er_TauJet20er, 1|1|1,1,1,0.61,+/-,0.00,0.70,+/-,0.12,0.70,+/-,0.12,12.33%,+/-,14.83%
+HLT_PFMET120_Mu5,L1_SingleMuOpen,262139,L1_Mu0er_ETM40 OR L1_Mu0er_ETM55, 1|1,1,1,0.60,+/-,0.00,0.58,+/-,0.11,0.58,+/-,0.11,4.59%,+/-,16.91%
+HLT_PFHT200_PFAlphaT0p51,L1_HTT125 OR L1_HTT150,1 | 1,L1_HTT125 OR L1_HTT150 OR L1_HTT175 OR L1_HTT200 OR L1_HTT250 OR L1_ETM40 OR L1_ETM50 OR L1_ETM60 OR L1_ETM70 OR L1_ETM100, 1|1|1|1|1|5000|1|1|1|1,175,175,0.60,+/-,0.00,105.30,+/-,1.45,0.60,+/-,0.01,0.71%,+/-,1.51%
+HLT_Photon120,L1_SingleEG25 OR L1_SingleEG40,1 | 1,L1_SingleEg25 OR L1_SingleEG40, -1||1,50,50,0.59,+/-,0.00,20.71,+/-,0.64,0.41,+/-,0.01,29.90%,+/-,1.65%
+HLT_Photon30,L1_SingleEG25,1,L1_SingleEG25, 1,6000,6000,0.58,+/-,0.00,2565.79,+/-,7.14,0.43,+/-,0.00,26.56%,+/-,0.67%
+HLT_Mu15_IsoVVVL_PFHT600,L1_SingleMuOpen,262139,L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175, 1|1|1|1,1,1,0.58,+/-,0.00,0.52,+/-,0.10,0.52,+/-,0.10,11.04%,+/-,15.54%
+HLT_Ele16_Ele12_Ele8_CaloIdL_TrackIdL,L1_TripleEG_14_10_8,1,L1_TripleEG_14_10_8, 1,1,1,0.58,+/-,0.00,0.60,+/-,0.11,0.60,+/-,0.11,3.38%,+/-,17.65%
+HLT_CaloMHTNoPU90_PFMET90_PFMHT90_IDTight,L1_ETM70,1,L1_ETM70 OR L1_DoubleJetC56_ETM60 OR L1_ETM60 OR L1_ETM50, 1|1|1|1,17,17,0.57,+/-,0.00,7.64,+/-,0.39,0.45,+/-,0.02,21.08%,+/-,3.25%
+HLT_Mu17_TkMu8_DZ,L1_DoubleMu_10_3p5,1,L1_DoubleMu_10_3p5 OR L1_DoubleMu_12_5, 1|1,35,35,0.56,+/-,0.00,15.81,+/-,0.56,0.45,+/-,0.02,19.68%,+/-,2.38%
+HLT_HT325,L1_HTT125 OR L1_HTT150,1 | 1,L1_HTT125 OR L1_HTT150 OR L1_HTT175 OR L1_HTT200, 1|1|1|1,1400,1400,0.56,+/-,0.00,596.54,+/-,3.44,0.43,+/-,0.00,24.01%,+/-,0.74%
+HLT_IsoMu17_eta2p1_MediumIsoPFTau40_Trk1_eta2p1_Reg,L1_Mu16er_IsoTau28er,1,L1_Mu16er_IsoTau28er OR L1_Mu16er_IsoTau32er OR L1_Mu16er_TauJet20er, 1|1|1,1,1,0.55,+/-,0.00,0.64,+/-,0.11,0.64,+/-,0.11,14.03%,+/-,15.21%
+HLT_Ele23_CaloIdL_TrackIdL_IsoVL_PFJet30,L1_SingleEG20,1,L1_SingleEG20, 10,1600,1600,0.54,+/-,0.00,651.56,+/-,3.60,0.41,+/-,0.00,24.84%,+/-,0.74%
+HLT_Ele8_CaloIdM_TrackIdM_PFJet30,L1_SingleEG5 OR L1_SingleEG10,1 | 10000,L1_SingleEG10 OR L1_SingleEG5, 10000|262139,1,1,0.54,+/-,0.00,0.72,+/-,0.12,0.72,+/-,0.12,24.72%,+/-,12.56%
+HLT_PFHT400_SixJet30,L1_HTT175,1,L1_HTT175, 1,50,50,0.53,+/-,0.00,20.98,+/-,0.65,0.42,+/-,0.01,21.48%,+/-,2.02%
+HLT_Mu3er_PFHT140_PFMET125,L1_Mu0er_ETM40 OR L1_Mu0er_ETM55,1 | 1,L1_Mu0er_ETM40 OR L1_Mu0er_ETM55, 1|1,1,1,0.53,+/-,0.00,0.48,+/-,0.10,0.48,+/-,0.10,9.22%,+/-,16.84%
+HLT_DoublePhoton85,L1_SingleEG35 OR L1_SingleEG40,1 | 1,L1_SingleEG35 OR L1_SingleEG40 OR L1_SingleJet200, 1|1|1,1,1,0.53,+/-,0.00,0.46,+/-,0.10,0.46,+/-,0.10,12.87%,+/-,15.85%
+HLT_Mu7p5_L2Mu2_Upsilon,L1_DoubleMu0,150,L1_DoubleMu0, 150,1,1,0.52,+/-,0.00,0.50,+/-,0.10,0.50,+/-,0.10,4.88%,+/-,18.11%
+HLT_HT425,L1_HTT125 OR L1_HTT150,1 | 1,L1_HTT125 OR L1_HTT150 OR L1_HTT175 OR L1_HTT200, 1|1|1|1,530,530,0.52,+/-,0.00,203.62,+/-,2.01,0.38,+/-,0.00,26.32%,+/-,0.87%
+HLT_HT275,L1_HTT125 OR L1_HTT150,1 | 1,L1_HTT125 OR L1_HTT150 OR L1_HTT175 OR L1_HTT200, 1|1|1|1,2800,2800,0.52,+/-,0.00,1106.02,+/-,4.69,0.40,+/-,0.00,24.10%,+/-,0.73%
+HLT_Mu7p5_Track2_Upsilon,L1_SingleMu7 OR L1_SingleMu5,125 | 262139,L1_SingleMu5 OR L1_SingleMu7, 262139|125,1,1,0.51,+/-,0.00,0.44,+/-,0.09,0.44,+/-,0.09,13.83%,+/-,15.85%
+HLT_Mu17_Mu8_DZ,L1_DoubleMu_10_3p5,1,L1_DoubleMu_10_3p5 OR L1_DoubleMu_12_5, 1|1,35,35,0.50,+/-,0.00,14.36,+/-,0.53,0.41,+/-,0.02,18.70%,+/-,2.56%
+HLT_Photon50,L1_SingleEG25 OR L1_SingleEG40,1 | 1,L1_SingleEg25 OR L1_SingleEG40, -1||1,1000,1000,0.49,+/-,0.00,460.41,+/-,3.03,0.46,+/-,0.00,6.65%,+/-,0.91%
+HLT_Mu33NoFiltersNoVtxDisplaced_Photon33_CaloIdL,L1_Mu5_EG20,1,L1_Mu5_EG20, 1,1,1,0.49,+/-,0.00,0.56,+/-,0.11,0.56,+/-,0.11,11.97%,+/-,16.65%
+HLT_QuadPFJet_VBF,L1_TripleJet_92_76_64_VBF,1,L1_TripleJet_92_76_64_VBF OR L1_TripleJet_84_68_48_VBF OR L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175 OR L1_SingleJet128 OR L1_DoubleJetC84, 1|1|1|1|1|1|1|1,900,900,0.49,+/-,0.00,324.04,+/-,2.54,0.36,+/-,0.00,26.30%,+/-,0.83%
+HLT_Mu8_DiEle12_CaloIdL_TrackIdL,L1_Mu6_DoubleEG10,1,L1_Mu6_DoubleEG10, 1,1,1,0.47,+/-,0.00,0.46,+/-,0.10,0.46,+/-,0.10,1.70%,+/-,20.16%
+HLT_RsqMR270_Rsq0p09_MR200_4jet,L1_HTT100 OR L1_HTT75,1 | 1,L1_HTT75 OR L1_HTT100 OR L1_HTT175 OR L1_SingleJet200 OR L1_DoubleJetC100 OR L1_QuadJetC60, 1|1|1|1|1|1,1,1,0.46,+/-,0.00,0.34,+/-,0.08,0.34,+/-,0.08,26.87%,+/-,12.99%
+HLT_Mu42NoFiltersNoVtx_Photon42_CaloIdL,L1_Mu5_EG20,1,L1_Mu5_EG20, 1,1,1,0.46,+/-,0.00,0.56,+/-,0.11,0.56,+/-,0.11,17.84%,+/-,15.54%
+HLT_HT575,L1_HTT125 OR L1_HTT150,1 | 1,L1_HTT125 OR L1_HTT150 OR L1_HTT175 OR L1_HTT200, 1|1|1|1,170,170,0.45,+/-,0.00,56.05,+/-,1.06,0.33,+/-,0.01,26.91%,+/-,1.25%
+HLT_MET75_IsoTrk50,L1_ETM60 OR L1_ETM70,1 | 1,L1_ETM60 OR L1_ETM70, 1|1,1,1,0.43,+/-,0.00,0.38,+/-,0.09,0.38,+/-,0.09,11.69%,+/-,17.91%
+HLT_Rsq0p30,L1_HTT100 OR L1_HTT75,1 | 1,L1_HTT75 OR L1_HTT100 OR L1_HTT125 OR L1_HTT150 OR L1_HTT175 OR L1_SingleJet128 OR L1_SingleJet176 OR L1_SingleJet200 OR L1_DoubleJetC84 OR L1_DoubleJetC100 OR L1_QuadJetC40 OR L1_QuadJetC60, 1|1|1|1|1|1|1|1|1|1|1|1,1,1,0.40,+/-,0.00,0.34,+/-,0.08,0.34,+/-,0.08,15.48%,+/-,17.34%
+HLT_Mu28NoFiltersNoVtx_DisplacedJet40_Loose,L1_SingleMu16 OR L1_SingleMu25,1 | 1,L1_SingleMu16 OR L1_SingleMu25, 1|1,50,50,0.40,+/-,0.00,15.28,+/-,0.55,0.31,+/-,0.01,23.50%,+/-,2.25%
+HLT_Mu23NoFiltersNoVtx_Photon23_CaloIdL,L1_Mu5_EG20,1,L1_Mu5_EG20, 1,14,14,0.39,+/-,0.00,4.59,+/-,0.30,0.33,+/-,0.02,15.37%,+/-,4.78%
+HLT_Mu28NoFiltersNoVtx_CentralCaloJet40,L1_SingleMu16 OR L1_SingleMu25,1 | 1,L1_SingleMu16 OR L1_SingleMu25, 1|1,200,200,0.36,+/-,0.00,56.97,+/-,1.06,0.28,+/-,0.01,21.90%,+/-,1.40%
+HLT_Photon90,L1_SingleEG25 OR L1_SingleEG40,1 | 1,L1_SingleEg25 OR L1_SingleEG40, -1||1,250,250,0.34,+/-,0.00,58.28,+/-,1.08,0.23,+/-,0.00,32.41%,+/-,1.19%
+HLT_TrkMu15_DoubleTrkMu5NoFiltersNoVtx,L1_DoubleMu_10_3p5,1,L1_DoubleMu_10_3p5 OR L1_DoubleMu_12_5, 1|1,1,1,0.34,+/-,0.00,0.46,+/-,0.10,0.46,+/-,0.10,24.75%,+/-,15.70%
+HLT_Photon120_R9Id90_HE10_Iso40_EBOnly_PFMET40,L1_SingleEG40,1,L1_SingleEG40, 1,1,1,0.34,+/-,0.00,0.30,+/-,0.08,0.30,+/-,0.08,12.80%,+/-,19.65%
+HLT_Photon75,L1_SingleEG25 OR L1_SingleEG40,1 | 1,L1_SingleEg25 OR L1_SingleEG40, -1||1,500,500,0.34,+/-,0.00,115.39,+/-,1.51,0.23,+/-,0.00,32.18%,+/-,1.04%
+HLT_DiPFJetAve80,L1_SingleJet52,4000,L1_SingleJet52, 4000,7,7,0.34,+/-,0.00,2.49,+/-,0.22,0.36,+/-,0.03,5.60%,+/-,8.48%
+HLT_DiPFJetAve80_HFJEC,L1_SingleJet52,4000,L1_SingleJet52, 4000,1,1,0.32,+/-,0.00,0.26,+/-,0.07,0.26,+/-,0.07,19.46%,+/-,18.01%
+HLT_TrkMu17_DoubleTrkMu8NoFiltersNoVtx,L1_DoubleMu_10_3p5,1,L1_DoubleMu_10_3p5 OR L1_DoubleMu_12_5, 1|1,1,1,0.30,+/-,0.00,0.46,+/-,0.10,0.46,+/-,0.10,34.08%,+/-,13.76%
+HLT_MET90_IsoTrk50,L1_ETM60 OR L1_ETM70,1 | 1,L1_ETM60 OR L1_ETM70, 1|1,1,1,0.29,+/-,0.00,0.18,+/-,0.06,0.18,+/-,0.06,37.92%,+/-,12.88%
+HLT_Mu7p5_Track3p5_Upsilon,L1_SingleMu7 OR L1_SingleMu5,125 | 262139,L1_SingleMu5 OR L1_SingleMu7, 262139|125,1,1,0.27,+/-,0.00,0.26,+/-,0.07,0.26,+/-,0.07,4.07%,+/-,25.54%
+HLT_Photon120_R9Id90_HE10_Iso40_EBOnly_VBF,L1_SingleEG40,1,L1_SingleEG40, 1,1,1,0.27,+/-,0.00,0.28,+/-,0.07,0.28,+/-,0.07,3.24%,+/-,25.88%
+HLT_HT650_DisplacedDijet80_Inclusive,L1_HTT175 OR L1_HTT150,1 | 1,L1_HTT150 OR L1_HTT175 OR L1_HTT200, 1|1|1,1,1,0.27,+/-,0.00,0.34,+/-,0.08,0.34,+/-,0.08,21.60%,+/-,19.03%
+HLT_Photon26_R9Id85_OR_CaloId24b40e_Iso50T80L_Photon16_AND_HE10_R9Id65_Eta2_Mass60,L1_SingleEG35 OR L1_SingleEG40,1 | 1,L1_SingleEG40 OR L1_SingleEG35 OR L1_DoubleEG_22_10 OR L1_DoubleEG_15_10, 1|1|1|1,100,100,0.24,+/-,0.00,17.76,+/-,0.59,0.18,+/-,0.01,24.72%,+/-,2.15%
+HLT_DiPFJetAve300_HFJEC,L1_SingleJet176,1,L1_SingleJet176, 1,1,1,0.23,+/-,0.00,0.22,+/-,0.07,0.22,+/-,0.07,5.66%,+/-,26.86%
+HLT_DoubleMu23NoFiltersNoVtxDisplaced,L1_DoubleMu_10_3p5,1,L1_DoubleMu_10_3p5 OR L1_DoubleMu_12_5, 1|1,1,1,0.23,+/-,0.00,0.20,+/-,0.06,0.20,+/-,0.06,13.22%,+/-,23.84%
+HLT_HT350_DisplacedDijet80_DisplacedTrack,L1_HTT175 OR L1_HTT150,1 | 1,L1_HTT150 OR L1_HTT175 OR L1_HTT200, 1|1|1,1,1,0.20,+/-,0.00,0.22,+/-,0.07,0.22,+/-,0.07,8.82%,+/-,27.51%
+HLT_DiPFJet40_DEta3p5_MJJ600_PFMETNoMu140,L1_ETM60 OR L1_ETM70,1 | 1,L1_ETM60 OR L1_ETM70, 1|1,1,1,0.19,+/-,0.00,0.34,+/-,0.08,0.34,+/-,0.08,43.34%,+/-,13.76%
+HLT_DoubleMu18NoFiltersNoVtx,L1_DoubleMu_10_3p5,1,L1_DoubleMu_10_3p5 OR L1_DoubleMu_12_5, 1|1,35,35,0.19,+/-,0.00,5.83,+/-,0.34,0.17,+/-,0.01,11.60%,+/-,4.71%
+HLT_ECALHT800,L1_HTT175 OR L1_ETM70,1 | 1,L1_HTT175 OR L1_ETM70, 1|1,1,1,0.17,+/-,0.00,0.24,+/-,0.07,0.24,+/-,0.07,27.83%,+/-,20.85%
+HLT_Mu10_TrkIsoVVL_DiPFJet40_DEta3p5_MJJ750_HTT350_PFMETNoMu60,L1_Mu6_HTT100,1,L1_Mu6_HTT100, 1,1,1,0.15,+/-,0.00,0.20,+/-,0.06,0.20,+/-,0.06,24.21%,+/-,23.99%
+HLT_HT750_DisplacedDijet80_Inclusive,L1_HTT175 OR L1_HTT150,1 | 1,L1_HTT150 OR L1_HTT175 OR L1_HTT200, 1|1|1,1,1,0.13,+/-,0.00,0.16,+/-,0.06,0.16,+/-,0.06,17.57%,+/-,29.16%
+HLT_HT350_DisplacedDijet80_Tight_DisplacedTrack,L1_HTT175 OR L1_HTT150,1 | 1,L1_HTT150 OR L1_HTT175 OR L1_HTT200, 1|1|1,1,1,0.11,+/-,0.00,0.08,+/-,0.04,0.08,+/-,0.04,26.95%,+/-,26.72%
+HLT_GlobalRunHPDNoise,L1_SingleJetC20_NotBptxOR,100,L1_SingleJetC20_NotBptxOR, 10,3500,3500,0.10,+/-,0.00,328.47,+/-,2.56,0.09,+/-,0.00,3.15%,+/-,1.75%
+HLT_DiPFJet40_DEta3p5_MJJ600_PFMETNoMu80,L1_ETM50,1,L1_ETM50, 1,60,60,0.10,+/-,0.00,4.36,+/-,0.29,0.07,+/-,0.00,23.93%,+/-,4.22%
+HLT_DoubleMu28NoFiltersNoVtxDisplaced,L1_DoubleMu_10_3p5,1,L1_DoubleMu_10_3p5 OR L1_DoubleMu_12_5, 1|1,1,1,0.09,+/-,0.00,0.12,+/-,0.05,0.12,+/-,0.05,23.12%,+/-,31.41%
+HLT_JetE30_NoBPTX3BX_NoHalo,L1_SingleJetC20_NotBptxOR,100,L1_SingleJetC20_NotBptxOR, 10,1,1,0.08,+/-,0.00,0.04,+/-,0.03,0.04,+/-,0.03,51.56%,+/-,16.68%
+HLT_HT2000,L1_HTT175,1,L1_HTT175, 1,1,1,0.08,+/-,0.00,0.08,+/-,0.04,0.08,+/-,0.04,4.32%,+/-,47.87%
+HLT_Mu300,L1_SingleMu16 OR L1_SingleMu25,1 | 1,L1_SingleMu16 OR L1_SingleMu25, 1|1,1,1,0.07,+/-,0.00,0.08,+/-,0.04,0.08,+/-,0.04,12.34%,+/-,43.86%
+HLT_Activity_Ecal_SC7,L1_ZeroBias,7591,L1_ZeroBias, 10000,2000,2000,0.07,+/-,0.00,100.55,+/-,1.41,0.05,+/-,0.00,24.11%,+/-,2.10%
+HLT_QuadMuon0_Dimuon0_Jpsi,L1_QuadMu0,1,L1_QuadMu0, 1,1,1,0.06,+/-,0.00,0.02,+/-,0.02,0.02,+/-,0.02,68.49%,+/-,10.12%
+HLT_Mu7p5_Track7_Upsilon,L1_SingleMu7 OR L1_SingleMu5,125 | 262139,L1_SingleMu5 OR L1_SingleMu7, 262139|125,1,1,0.06,+/-,0.00,0.10,+/-,0.04,0.10,+/-,0.04,37.03%,+/-,28.19%
+HLT_Mu350,L1_SingleMu16 OR L1_SingleMu25,1 | 1,L1_SingleMu16 OR L1_SingleMu25, 1|1,1,1,0.06,+/-,0.00,0.06,+/-,0.03,0.06,+/-,0.03,5.11%,+/-,54.82%
+HLT_L2DoubleMu23_NoVertex,L1_DoubleMu_10_3p5,1,L1_DoubleMu_10_3p5 OR L1_DoubleMu_12_5, 1|1,70,70,0.06,+/-,0.00,3.28,+/-,0.26,0.05,+/-,0.00,15.38%,+/-,5.95%
+HLT_QuadMuon0_Dimuon0_Upsilon,L1_QuadMu0,1,L1_QuadMu0, 1,1,1,0.05,+/-,0.00,0.02,+/-,0.02,0.02,+/-,0.02,63.02%,+/-,13.84%
+HLT_MET60_IsoTrk35_Loose,L1_ETM50 OR L1_ETM60 OR L1_ETM70,1 | 1 | 1,L1_ETM50 OR L1_ETM60 OR L1_ETM70, 1|1|1,170,170,0.05,+/-,0.00,6.01,+/-,0.35,0.04,+/-,0.00,29.85%,+/-,3.61%
+HLT_Photon500,L1_SingleEG40,1,L1_SingleEG40, 1,1,1,0.04,+/-,0.00,0.02,+/-,0.02,0.02,+/-,0.02,43.91%,+/-,31.58%
+HLT_Mu12_Photon25_CaloIdL_L1ISO,L1_Mu5_IsoEG18,1,L1_Mu5_IsoEG18, 1,350,350,0.03,+/-,0.00,9.09,+/-,0.43,0.03,+/-,0.00,13.43%,+/-,4.48%
+HLT_HT2500,L1_HTT175,1,L1_HTT175, 1,1,1,0.02,+/-,0.00,0.02,+/-,0.02,0.02,+/-,0.02,0.55%,+/-,98.97%
+HLT_Photon600,L1_SingleEG40,1,L1_SingleEG40, 1,1,1,0.01,+/-,0.00,0.00,+/-,0.00,0.00,+/-,0.00,100.00%,+/-,4.62%
+HLT_Mu12_Photon25_CaloIdL,L1_Mu5_EG20 OR L1_Mu20_EG10,1 | 1,L1_Mu5_EG20 OR L1_Mu20_EG10, 1|1,3500,3500,0.01,+/-,0.00,16.69,+/-,0.58,0.00,+/-,0.00,52.32%,+/-,6.49%
+HLT_JetE30_NoBPTX,L1_SingleJetC20_NotBptxOR,100,L1_SingleJetC20_NotBptxOR, 10,42,42,0.01,+/-,0.00,0.16,+/-,0.06,0.00,+/-,0.00,46.19%,+/-,11.93%
+HLT_PixelTracks_Multiplicity110ForEndOfFill,L1_ETT40,1,L1_ETT40, 262139,0,0,0.00,+/-,0.00,0.00,+/-,0.00,-0.00,+/-,-0.00,0.00%,+/-,0.00%
+HLT_AK4CaloJet80,L1_SingleJet36,7000,L1_SingleJet36, 7000,0,0,0.00,+/-,0.00,2.76,+/-,0.23,-2.76,+/-,-0.23,0.00%,+/-,0.00%
+HLT_HIL2Mu3BPTX,L1_SingleMuOpen,262139,L1_SingleMuOpen, 262139,0,0,0.00,+/-,0.00,1.17,+/-,0.15,-1.17,+/-,-0.15,0.00%,+/-,0.00%
+HLT_AK4CaloJet30,L1_ZeroBias,7591,L1_ZeroBias, 10000,0,0,0.00,+/-,0.00,93.57,+/-,1.36,-93.57,+/-,-1.36,0.00%,+/-,0.00%
+HLT_PixelTracks_Multiplicity135ForEndOfFill,L1_ETT40,1,L1_ETT40, 262139,0,0,0.00,+/-,0.00,0.00,+/-,0.00,-0.00,+/-,-0.00,0.00%,+/-,0.00%
+HLT_VBF_DisplacedJet40_VVTightID_Hadronic,L1_TripleJet_92_76_64_VBF,1,L1_TripleJet_92_76_64_VBF OR L1_HTT175, 1|1,0,0,0.00,+/-,0.00,1.13,+/-,0.15,-1.13,+/-,-0.15,0.00%,+/-,0.00%
+HLT_AK4PFJet80,L1_SingleJet36,7000,L1_SingleJet36, 7000,0,0,0.00,+/-,0.00,3.12,+/-,0.25,-3.12,+/-,-0.25,0.00%,+/-,0.00%
+HLT_AK4PFJet100,L1_SingleJet36,7000,L1_SingleJet36, 7000,0,0,0.00,+/-,0.00,1.03,+/-,0.14,-1.03,+/-,-0.14,0.00%,+/-,0.00%
+HLT_PixelTracks_Multiplicity85ForEndOfFill,L1_ETT15_BptxAND,1,L1_ETT15_BptxAND, 262139,0,0,0.00,+/-,0.00,0.00,+/-,0.00,-0.00,+/-,-0.00,0.00%,+/-,0.00%
+HLT_HIL2DoubleMu0BPTX,L1_DoubleMuOpen,1,L1_DoubleMuOpen, 1,0,0,0.00,+/-,0.00,0.00,+/-,0.00,-0.00,+/-,-0.00,0.00%,+/-,0.00%
+HLT_AK4PFJet30,L1_ZeroBias,7591,L1_ZeroBias, 10000,0,0,0.00,+/-,0.00,110.35,+/-,1.48,-110.35,+/-,-1.48,0.00%,+/-,0.00%
+HLT_AK4CaloJet50,L1_ZeroBias,7591,L1_ZeroBias, 10000,0,0,0.00,+/-,0.00,12.63,+/-,0.50,-12.63,+/-,-0.50,0.00%,+/-,0.00%
+HLT_PixelTracks_Multiplicity60ForEndOfFill,L1_ETT15_BptxAND,1,L1_ETT15_BptxAND, 262139,0,0,0.00,+/-,0.00,0.00,+/-,0.00,-0.00,+/-,-0.00,0.00%,+/-,0.00%
+HLT_PixelTracks_Multiplicity160ForEndOfFill,L1_ETT60,1,L1_ETT60, 262139,0,0,0.00,+/-,0.00,0.00,+/-,0.00,-0.00,+/-,-0.00,0.00%,+/-,0.00%
+HLT_FullTrack50,L1_SingleJet36,7000,L1_SingleJet36, 7000,0,0,0.00,+/-,0.00,0.22,+/-,0.07,-0.22,+/-,-0.07,0.00%,+/-,0.00%
+HLT_HISinglePhoton15ForEndOfFill,L1_SingleEG2_BptxAND,1,L1_SingleEG2_BptxAND, 1,0,0,0.00,+/-,0.00,0.00,+/-,0.00,-0.00,+/-,-0.00,0.00%,+/-,0.00%
+HLT_HISinglePhoton40,L1_SingleEG5,1,L1_SingleEG5, 262139,0,0,0.00,+/-,0.00,0.00,+/-,0.00,-0.00,+/-,-0.00,0.00%,+/-,0.00%
+HLT_HISinglePhoton10ForEndOfFill,L1_SingleEG2_BptxAND,1,L1_SingleEG2_BptxAND, 1,0,0,0.00,+/-,0.00,0.00,+/-,0.00,-0.00,+/-,-0.00,0.00%,+/-,0.00%
+HLT_AK4CaloJet100,L1_SingleJet36,7000,L1_SingleJet36, 7000,0,0,0.00,+/-,0.00,1.03,+/-,0.14,-1.03,+/-,-0.14,0.00%,+/-,0.00%
+HLT_HISinglePhoton60,L1_SingleEG5,1,L1_SingleEG5, 262139,0,0,0.00,+/-,0.00,0.00,+/-,0.00,-0.00,+/-,-0.00,0.00%,+/-,0.00%
+HLT_VBF_DisplacedJet40_VTightID_DisplacedTrack,L1_TripleJet_92_76_64_VBF,1,L1_TripleJet_92_76_64_VBF OR L1_HTT175, 1|1,0,0,0.00,+/-,0.00,0.20,+/-,0.06,-0.20,+/-,-0.06,0.00%,+/-,0.00%
+HLT_AK4PFJet50,L1_ZeroBias,7591,L1_ZeroBias, 10000,0,0,0.00,+/-,0.00,15.18,+/-,0.55,-15.18,+/-,-0.55,0.00%,+/-,0.00%
+HLT_L1SingleMuOpen,L1_SingleMuOpen,262139,L1_SingleMuOpen, 262139,0,0,0.00,+/-,0.00,3.36,+/-,0.26,-3.36,+/-,-0.26,0.00%,+/-,0.00%
+HLT_AK4CaloJet40,L1_ZeroBias,7591,L1_ZeroBias, 10000,0,0,0.00,+/-,0.00,29.62,+/-,0.77,-29.62,+/-,-0.77,0.00%,+/-,0.00%
+HLT_L1SingleMuOpen_DT,L1_SingleMuOpen,262139,L1_SingleMuOpen, 262139,0,0,0.00,+/-,0.00,0.60,+/-,0.11,-0.60,+/-,-0.11,0.00%,+/-,0.00%
+HLT_VBF_DisplacedJet40_VVTightID_DisplacedTrack,L1_TripleJet_92_76_64_VBF,1,L1_TripleJet_92_76_64_VBF OR L1_HTT175, 1|1,0,0,0.00,+/-,0.00,0.16,+/-,0.06,-0.16,+/-,-0.06,0.00%,+/-,0.00%
+HLT_HIL3Mu3BPTX,L1_SingleMuOpen,262139,L1_SingleMuOpen, 262139,0,0,0.00,+/-,0.00,0.36,+/-,0.08,-0.36,+/-,-0.08,0.00%,+/-,0.00%
+HLT_VBF_DisplacedJet40_VTightID_Hadronic,L1_TripleJet_92_76_64_VBF,1,L1_TripleJet_92_76_64_VBF OR L1_HTT175, 1|1,0,0,0.00,+/-,0.00,1.61,+/-,0.18,-1.61,+/-,-0.18,0.00%,+/-,0.00%
+HLT_L1Tech_DT_GlobalOR,,,20, -1|,3000,3000,0.00,+/-,0.00,0.00,+/-,0.00,0.00,+/-,0.00,0.00%,+/-,0.00%
+HLT_ZeroBias_IsolatedBunches,L1_AlwaysTrue,23,L1_AlwaysTrue, 1,50,50,0.00,+/-,0.00,0.00,+/-,0.00,0.00,+/-,0.00,0.00%,+/-,0.00%
+HLT_HIL1DoubleMu0BPTX,L1_DoubleMuOpen,1,L1_DoubleMuOpen, 1,0,0,0.00,+/-,0.00,0.00,+/-,0.00,-0.00,+/-,-0.00,0.00%,+/-,0.00%
+HLT_HISinglePhoton20ForEndOfFill,L1_SingleEG2_BptxAND,1,L1_SingleEG2_BptxAND, 1,0,0,0.00,+/-,0.00,0.00,+/-,0.00,-0.00,+/-,-0.00,0.00%,+/-,0.00%
+HLT_FullTrack12ForEndOfFill,L1_ZeroBias,7591,L1_ZeroBias, 10000,0,0,0.00,+/-,0.00,37.65,+/-,0.87,-37.65,+/-,-0.87,0.00%,+/-,0.00%
+AlCa_EcalEtaEBonly,L1_DoubleJetC100,1,, ,1,-1,15013.71,+/-,0.61,0.00,+/-,0.00,0.00,+/-,0.00,100.00%,+/-,0.00%
+DST_Physics,,,, ,10,-1,7740.14,+/-,0.44,0.00,+/-,0.00,0.00,+/-,0.00,100.00%,+/-,0.01%
+AlCa_EcalPi0EBonly,L1_DoubleJetC100,1,, ,5,-1,5898.76,+/-,0.38,0.00,+/-,0.00,0.00,+/-,0.00,100.00%,+/-,0.01%
+AlCa_EcalPhiSym,L1_AlwaysTrue OR L1_ZeroBias,23 | 7591,, ,1,-1,3164.83,+/-,0.28,0.00,+/-,0.00,0.00,+/-,0.00,100.00%,+/-,0.01%
+AlCa_EcalEtaEEonly,L1_DoubleJetC100,1,, ,1,-1,1979.31,+/-,0.22,0.00,+/-,0.00,0.00,+/-,0.00,100.00%,+/-,0.01%
+AlCa_RPCMuonNoHits,L1_SingleMu14er OR L1_SingleMu5,200 | 262139,, ,1,-1,1652.58,+/-,0.20,0.00,+/-,0.00,0.00,+/-,0.00,100.00%,+/-,0.01%
+DST_HT250_CaloScouting,L1_HTT125 OR L1_HTT150,1 | 1,, ,1,-1,1567.24,+/-,0.20,0.00,+/-,0.00,0.00,+/-,0.00,100.00%,+/-,0.01%
+AlCa_RPCMuonNoTriggers,L1_SingleMu14er OR L1_SingleMu5,200 | 262139,, ,1,-1,1265.04,+/-,0.18,0.00,+/-,0.00,0.00,+/-,0.00,100.00%,+/-,0.01%
+AlCa_EcalPi0EEonly,L1_DoubleJetC100,1,, ,5,-1,1172.95,+/-,0.17,0.00,+/-,0.00,0.00,+/-,0.00,100.00%,+/-,0.01%
+AlCa_RPCMuonNormalisation,L1_SingleMu14er OR L1_SingleMu5,200 | 262139,, ,5,-1,911.85,+/-,0.15,0.00,+/-,0.00,0.00,+/-,0.00,100.00%,+/-,0.02%
+AlCa_Ele23_WPVeryLoose_Gsf,L1_SingleIsoEG22er,1,, ,1,-1,285.29,+/-,0.08,0.00,+/-,0.00,0.00,+/-,0.00,100.00%,+/-,0.03%
+DST_DoubleMu3_Mass10_PFScouting,L1_DoubleMu_10_3p5,1,, ,1,-1,212.76,+/-,0.07,0.00,+/-,0.00,0.00,+/-,0.00,100.00%,+/-,0.03%
+DST_HT450_PFScouting,L1_HTT125 OR L1_HTT150,1 | 1,, ,1,-1,164.23,+/-,0.06,0.00,+/-,0.00,0.00,+/-,0.00,100.00%,+/-,0.04%
+DST_HT450_BTagScouting,L1_HTT125 OR L1_HTT150,1 | 1,, ,1,-1,164.15,+/-,0.06,0.00,+/-,0.00,0.00,+/-,0.00,100.00%,+/-,0.04%
+HLT_EcalCalibration,,,, ,1,-1,97.39,+/-,0.05,0.00,+/-,0.00,0.00,+/-,0.00,100.00%,+/-,0.05%
+DST_DoubleMu3_Mass10_BTagScouting,L1_DoubleMu_10_3p5,1,, ,1,-1,94.34,+/-,0.05,0.00,+/-,0.00,0.00,+/-,0.00,100.00%,+/-,0.05%
+AlCa_LumiPixels_ZeroBias,L1_ZeroBias,7591,, ,45,-1,70.39,+/-,0.04,0.00,+/-,0.00,0.00,+/-,0.00,100.00%,+/-,0.06%
+AlCa_LumiPixels_Random,,,, ,12,-1,47.32,+/-,0.03,0.00,+/-,0.00,0.00,+/-,0.00,100.00%,+/-,0.07%
+HLT_ZeroBias_part2,L1_ZeroBias,7591,, ,100,-1,31.68,+/-,0.03,0.00,+/-,0.00,0.00,+/-,0.00,100.00%,+/-,0.09%
+HLT_ZeroBias_part3,L1_ZeroBias,7591,, ,100,-1,31.68,+/-,0.03,0.00,+/-,0.00,0.00,+/-,0.00,100.00%,+/-,0.09%
+HLT_ZeroBias_part0,L1_ZeroBias,7591,, ,100,-1,31.67,+/-,0.03,0.00,+/-,0.00,0.00,+/-,0.00,100.00%,+/-,0.09%
+HLT_ZeroBias,L1_ZeroBias,7591,L1_ZeroBias, 10000,100,200,31.67,+/-,0.03,3192.56,+/-,7.97,15.96,+/-,0.04,49.60%,+/-,0.11%
+HLT_ZeroBias_part1,L1_ZeroBias,7591,, ,100,-1,31.67,+/-,0.03,0.00,+/-,0.00,0.00,+/-,0.00,100.00%,+/-,0.09%
+HLT_Ele17_CaloIdL_TrackIdL_IsoVL,L1_SingleEG15,12000,L1_SingleEG15, 12000,1,11,26.66,+/-,0.03,296.73,+/-,2.43,26.98,+/-,0.22,1.16%,+/-,0.81%
+HLT_Physics_part1,,,, ,3200,-1,24.19,+/-,0.02,0.00,+/-,0.00,0.00,+/-,0.00,100.00%,+/-,0.10%
+HLT_Physics_part3,,,, ,3200,-1,24.19,+/-,0.02,0.00,+/-,0.00,0.00,+/-,0.00,100.00%,+/-,0.10%
+HLT_Physics_part2,,,, ,3200,-1,24.18,+/-,0.02,0.00,+/-,0.00,0.00,+/-,0.00,100.00%,+/-,0.10%
+HLT_Physics_part0,,,, ,3200,-1,24.18,+/-,0.02,0.00,+/-,0.00,0.00,+/-,0.00,100.00%,+/-,0.10%
+HLT_Physics,,,, ,3200,-1,24.18,+/-,0.02,0.00,+/-,0.00,0.00,+/-,0.00,100.00%,+/-,0.10%
+DST_L1DoubleMu_PFScouting,L1_DoubleMu_10_3p5,1,, ,50,-1,23.89,+/-,0.02,0.00,+/-,0.00,0.00,+/-,0.00,100.00%,+/-,0.10%
+DST_ZeroBias_PFScouting,L1_ZeroBias,7591,, ,200,-1,15.84,+/-,0.02,0.00,+/-,0.00,0.00,+/-,0.00,100.00%,+/-,0.12%
+HLT_BTagMu_DiJet20_Mu5,L1_Mu3_JetC16_WdEtaPhi2,150,L1_Mu3_JetC16_WdEtaPhi2, 150,4,2,12.31,+/-,0.02,27.95,+/-,0.75,13.97,+/-,0.37,11.88%,+/-,2.35%
+HLT_Mu17_TrkIsoVVL_TkMu8_TrkIsoVVL,L1_DoubleMu_10_3p5,1,L1_DoubleMu_10_3p5 OR L1_DoubleMu_12_5, 1|1,1,35,10.08,+/-,0.02,10.86,+/-,0.46,0.31,+/-,0.01,96.92%,+/-,0.16%
+HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL,L1_DoubleMu_10_3p5,1,L1_DoubleMu_10_3p5 OR L1_DoubleMu_12_5, 1|1,1,35,8.79,+/-,0.01,9.47,+/-,0.43,0.27,+/-,0.01,96.92%,+/-,0.17%
+DST_L1DoubleMu_BTagScouting,L1_DoubleMu_10_3p5,1,, ,50,-1,7.56,+/-,0.01,0.00,+/-,0.00,0.00,+/-,0.00,100.00%,+/-,0.18%
+DST_L1HTT_CaloScouting_PFScouting,L1_HTT125 OR L1_HTT150,1 | 1,, ,1000,-1,6.89,+/-,0.01,0.00,+/-,0.00,0.00,+/-,0.00,100.00%,+/-,0.19%
+DST_L1HTT_BTagScouting,L1_HTT125 OR L1_HTT150,1 | 1,, ,1000,-1,6.74,+/-,0.01,0.00,+/-,0.00,0.00,+/-,0.00,100.00%,+/-,0.19%
+HLT_HcalNZS,L1_SingleEG5 OR L1_SingleEG20,1 | 1,, ,1,-1,6.70,+/-,0.01,0.00,+/-,0.00,0.00,+/-,0.00,100.00%,+/-,0.19%
+HLT_HcalPhiSym,L1_SingleEG5 OR L1_SingleEG20,1 | 1,, ,1,-1,5.86,+/-,0.01,0.00,+/-,0.00,0.00,+/-,0.00,100.00%,+/-,0.21%
+HLT_Random,,,, ,120,-1,4.74,+/-,0.01,0.00,+/-,0.00,0.00,+/-,0.00,100.00%,+/-,0.23%
+HLT_Ele12_CaloIdL_TrackIdL_IsoVL,L1_SingleEG10 OR L1_SingleEG15,10000 | 12000,L1_SingleEG15 OR L1_SingleEG10, 12000|10000,1,125,4.05,+/-,0.01,479.58,+/-,3.09,3.84,+/-,0.02,5.25%,+/-,0.63%
+HLT_PFJet40,L1_ZeroBias,7591,L1_ZeroBias, 10000,14,300,3.98,+/-,0.01,36.10,+/-,0.85,0.12,+/-,0.00,96.97%,+/-,0.25%
+DST_CaloJet40_CaloScouting_PFScouting,L1_ZeroBias,7591,, ,10,-1,2.91,+/-,0.01,0.00,+/-,0.00,0.00,+/-,0.00,100.00%,+/-,0.29%
+DST_CaloJet40_BTagScouting,L1_ZeroBias,7591,, ,10,-1,2.38,+/-,0.01,0.00,+/-,0.00,0.00,+/-,0.00,100.00%,+/-,0.32%
+HLT_PFJet200,L1_SingleJet128,1,L1_SingleJet128, 1,189,315,1.78,+/-,0.01,256.71,+/-,2.26,0.81,+/-,0.01,54.18%,+/-,0.42%
+HLT_Photon75_R9Id90_HE10_Iso40_EBOnly_PFMET40,L1_SingleEG40,1,L1_SingleEG40, 1,1,2,1.43,+/-,0.01,1.37,+/-,0.17,0.69,+/-,0.08,52.06%,+/-,2.80%
+HLT_Ele33_CaloIdM_TrackIdM_PFJet30,L1_SingleEG30,1,L1_SingleEG30, 1,360,550,0.86,+/-,0.00,243.84,+/-,2.20,0.44,+/-,0.00,48.52%,+/-,0.59%
+HLT_Ele33_CaloIdL_TrackIdL_IsoVL_PFJet30,L1_SingleEG30,1,L1_SingleEG30, 1,950,360,0.41,+/-,0.00,293.15,+/-,2.41,0.81,+/-,0.01,49.70%,+/-,0.57%
+DST_ZeroBias_BTagScouting,L1_ZeroBias,7591,, ,200,-1,0.37,+/-,0.00,0.00,+/-,0.00,0.00,+/-,0.00,100.00%,+/-,0.82%
+HLT_HcalUTCA,,,, ,1,-1,0.06,+/-,0.00,0.00,+/-,0.00,0.00,+/-,0.00,100.00%,+/-,1.96%
+HLTriggerFinalPath (2017829),,,, ,1,-1,0.00,+/-,0.00,0.00,+/-,0.00,0.00,+/-,0.00,0.00%,+/-,0.00%
+HLTriggerFirstPath (2017362),,,, ,1,-1,0.00,+/-,0.00,0.00,+/-,0.00,0.00,+/-,0.00,0.00%,+/-,0.00%
+******************************
+L1path(wbm),L1prescale(wbm),L1path(steam),L1prescale(steam)
+******************************L1 path with same prescale
+L1_ETM100,1,L1_ETM100,1
+L1_SingleJet36,7000,L1_SingleJet36,7000
+L1_Mu6_DoubleEG10,1,L1_Mu6_DoubleEG10,1
+L1_HTT200,1,L1_HTT200,1
+L1_Mu8_HTT50,1,L1_Mu8_HTT50,1
+L1_SingleMuOpen,262139,L1_SingleMuOpen,262139
+L1_SingleIsoEG22er,1,L1_SingleIsoEG22er,1
+L1_DoubleIsoTau32er,1,L1_DoubleIsoTau32er,1
+L1_HTT125,1,L1_HTT125,1
+L1_DoubleMu0_Eta1p6_WdEta18,1,L1_DoubleMu0_Eta1p6_WdEta18,1
+L1_ETM40,5000,L1_ETM40,5000
+L1_DoubleIsoTau36er,1,L1_DoubleIsoTau36er,1
+L1_SingleJet200,1,L1_SingleJet200,1
+L1_DoubleJetC56_ETM60,1,L1_DoubleJetC56_ETM60,1
+L1_SingleIsoEG18er,1,L1_SingleIsoEG18er,1
+L1_SingleIsoEG20,1,L1_SingleIsoEG20,1
+L1_DoubleEG6_HTT150,1,L1_DoubleEG6_HTT150,1
+L1_EG25er_HTT100,1,L1_EG25er_HTT100,1
+L1_Mu12_EG10,1,L1_Mu12_EG10,1
+L1_TripleEG_14_10_8,1,L1_TripleEG_14_10_8,1
+L1_SingleMu20,1,L1_SingleMu20,1
+L1_SingleMu16,1,L1_SingleMu16,1
+L1_SingleMu16er,1,L1_SingleMu16er,1
+L1_SingleMu12,70,L1_SingleMu12,70
+L1_ETM50,1,L1_ETM50,1
+L1_SingleMuBeamHalo,1,L1_SingleMuBeamHalo,1
+L1_SingleMu7,125,L1_SingleMu7,125
+L1_SingleMu14er,200,L1_SingleMu14er,200
+L1_DoubleMu_12_5,1,L1_DoubleMu_12_5,1
+L1_DoubleEG_15_10,1,L1_DoubleEG_15_10,1
+L1_Mu0er_ETM40,1,L1_Mu0er_ETM40,1
+L1_QuadJetC36_TauJet52,7,L1_QuadJetC36_TauJet52,7
+L1_HTT100,1,L1_HTT100,1
+L1_SingleEG10,10000,L1_SingleEG10,10000
+L1_SingleIsoEG25er,1,L1_SingleIsoEG25er,1
+L1_DoubleJetC84,1,L1_DoubleJetC84,1
+L1_SingleEG15,12000,L1_SingleEG15,12000
+L1_Mu4_EG18,1,L1_Mu4_EG18,1
+L1_SingleJetC32_NotBptxOR,1,L1_SingleJetC32_NotBptxOR,1
+L1_SingleJet128,1,L1_SingleJet128,1
+L1_ETM60,1,L1_ETM60,1
+L1_QuadMu0,1,L1_QuadMu0,1
+L1_Jet32_MuOpen_EG10_MuEGNotWdPhi3_JetMuWdPhi1,60,L1_Jet32_MuOpen_EG10_MuEGNotWdPhi3_JetMuWdPhi1,60
+L1_DoubleEG_22_10,1,L1_DoubleEG_22_10,1
+L1_Mu0er_ETM55,1,L1_Mu0er_ETM55,1
+L1_Jet32_DoubleMu_Open_10_MuMuNotWdPhi23_JetMuWdPhi1,3,L1_Jet32_DoubleMu_Open_10_MuMuNotWdPhi23_JetMuWdPhi1,3
+L1_Mu5_EG20,1,L1_Mu5_EG20,1
+L1_SingleEG25,1,L1_SingleEG25,1
+L1_HTT175,1,L1_HTT175,1
+L1_DoubleIsoTau40er,1,L1_DoubleIsoTau40er,1
+L1_ETM70,1,L1_ETM70,1
+L1_Mu5_IsoEG18,1,L1_Mu5_IsoEG18,1
+L1_Mu16er_TauJet20er,1,L1_Mu16er_TauJet20er,1
+L1_QuadJetC40,1,L1_QuadJetC40,1
+L1_DoubleJetC112,1,L1_DoubleJetC112,1
+L1_Mu3_JetC52_WdEtaPhi2,7,L1_Mu3_JetC52_WdEtaPhi2,7
+L1_Mu6_HTT100,1,L1_Mu6_HTT100,1
+L1_SingleEG30,1,L1_SingleEG30,1
+L1_Mu16er_IsoTau32er,1,L1_Mu16er_IsoTau32er,1
+L1_SingleEG35,1,L1_SingleEG35,1
+L1_SingleMu5,262139,L1_SingleMu5,262139
+L1_SingleJet68,750,L1_SingleJet68,750
+L1_TripleJet_92_76_64_VBF,1,L1_TripleJet_92_76_64_VBF,1
+L1_DoubleIsoTau28er,1,L1_DoubleIsoTau28er,1
+L1_SingleMu20er,1,L1_SingleMu20er,1
+L1_DoubleMu6_EG6,1,L1_DoubleMu6_EG6,1
+L1_DoubleJetC52,5000,L1_DoubleJetC52,5000
+L1_Mu14er_ETM30,1,L1_Mu14er_ETM30,1
+L1_SingleMuOpen_NotBptxOR,1,L1_SingleMuOpen_NotBptxOR,1
+L1_HTT150,1,L1_HTT150,1
+L1_HTT250,1,L1_HTT250,1
+L1_Mu10er_ETM50,1,L1_Mu10er_ETM50,1
+L1_DoubleMu7_EG7,1,L1_DoubleMu7_EG7,1
+L1_TripleMu_5_5_3,1,L1_TripleMu_5_5_3,1
+L1_HTT75,1,L1_HTT75,1
+L1_Mu20_EG10,1,L1_Mu20_EG10,1
+L1_SingleEG40,1,L1_SingleEG40,1
+L1_DoubleMu_10_3p5,1,L1_DoubleMu_10_3p5,1
+L1_Mu16er_IsoTau28er,1,L1_Mu16er_IsoTau28er,1
+L1_TripleJet_84_68_48_VBF,1,L1_TripleJet_84_68_48_VBF,1
+L1_Mu5_EG15,1,L1_Mu5_EG15,1
+L1_DoubleMu0_Eta1p6_WdEta18_OS,1,L1_DoubleMu0_Eta1p6_WdEta18_OS,1
+L1_QuadJetC60,1,L1_QuadJetC60,1
+L1_Mu3_JetC16_WdEtaPhi2,150,L1_Mu3_JetC16_WdEtaPhi2,150
+L1_SingleMu25,1,L1_SingleMu25,1
+L1_DoubleMu_10_Open,500,L1_DoubleMu_10_Open,500
+L1_DoubleMu_10_0_WdEta18,1,L1_DoubleMu_10_0_WdEta18,1
+L1_SingleIsoEG30er,1,L1_SingleIsoEG30er,1
+L1_DoubleMuOpen,1,L1_DoubleMuOpen,1
+L1_DoubleTauJet40er,1,L1_DoubleTauJet40er,1
+L1_Mu10er_ETM30,1,L1_Mu10er_ETM30,1
+L1_SingleJet176,1,L1_SingleJet176,1
+L1_SingleEG2_BptxAND,1,L1_SingleEG2_BptxAND,1
+L1_DoubleMu0,150,L1_DoubleMu0,150
+L1_DoubleJetC100,1,L1_DoubleJetC100,1
+L1_ETM30,2000,L1_ETM30,2000
+L1_SingleMu30,1,L1_SingleMu30,1
+L1_TripleMu0,1,L1_TripleMu0,1
+L1_IsoEG20er_TauJet20er_NotWdEta0,1,L1_IsoEG20er_TauJet20er_NotWdEta0,1
+L1_SingleJet52,4000,L1_SingleJet52,4000
+******************************L1 path with different prescale
+L1_SingleJetC20_NotBptxOR,100,L1_SingleJetC20_NotBptxOR,10
+L1_ETT40,1,L1_ETT40,262139
+L1_SingleJet92,1000,L1_SingleJet92,2000
+L1_Mu5_DoubleEG5,1,L1_Mu5_DoubleEG5,262139
+L1_AlwaysTrue,23,L1_AlwaysTrue,1
+L1_ETT60,1,L1_ETT60,262139
+L1_ZeroBias,7591,L1_ZeroBias,10000
+L1_SingleIsoEG20er,1,L1_SingleIsoEG20er,10
+L1_ETT15_BptxAND,1,L1_ETT15_BptxAND,262139
+L1_SingleIsoEG25,1,L1_SingleIsoEG25,1000
+L1_SingleEG5,1,L1_SingleEG5,262139
+L1_SingleEG20,1,L1_SingleEG20,10
+******************************l1wbmonly
+L1Tech_BRIL_bit28,-1,,
+L1Tech_BRIL_bit29,-1,,
+L1Tech_RPC_TTU_RBplus1_Cosmics.v0,-1,,
+L1Tech_HCAL_HO_totalOR.v0,-1,,
+L1Tech_BPTX_quiet.v0,-1,,
+L1Tech_BPTX_minus.v0,-1,,
+L1Tech_BRIL_bit42,-1,,
+L1_AlwaysTrue103_HC,1,,
+L1_AlwaysTrue27,1,,
+L1 Algo Name,-1,,
+L1_AlwaysTrue28_HC,1,,
+L1Tech_BPTX_plus_AND_minus.v0,-1,,
+L1Tech_HCAL_HF_MMP_or_MPP.v1,-1,,
+L1Tech_TOTEM_0,-1,,
+L1Tech_TOTEM_1,-1,,
+L1Tech_TOTEM_2,-1,,
+L1Tech_TOTEM_3,-1,,
+L1Tech_RPC_TTU_pointing_Cosmics.v0,-1,,
+L1Tech_CASTOR_HighJet.v0,-1,,
+L1Tech_DT_GlobalOR.v0,-1,,
+L1Tech_BPTX_minus_AND_not_plus.v0,-1,,
+L1Tech_BRIL_bit43,-1,,
+L1Tech_BRIL_bit40,-1,,
+L1Tech_HCAL_HBHE_totalOR.v0,-1,,
+L1Tech_CASTOR_Gap.v0,-1,,
+L1Tech_RPC_TTU_barrel_Cosmics.v0,-1,,
+L1Tech_CASTOR_MediumJet.v0,-1,,
+L1Tech_BPTX_plus_OR_minus.v0,-1,,
+L1Tech_BRIL_bit31,-1,,
+L1Tech_CASTOR_HaloMuon.v0,-1,,
+L1Tech_HCAL_HF_coincidence_PM.v2,-1,,
+L1Tech_BPTX_plus_AND_minus_instance1.v0,-1,,
+L1Tech_BPTX_plus.v0,-1,,
+L1Tech_HCAL_HF_single_channel.v0,-1,,
+L1Tech_BPTX_plus_AND_NOT_minus.v0,-1,,
+L1Tech_RPC_TTU_RBplus2_Cosmics.v0,-1,,
+L1 Tech Name,-1,,
+L1Tech_BPTX_PreBPTX.v0,-1,,
+L1Tech_BRIL_bit39,-1,,
+L1Tech_BRIL_bit38,-1,,
+L1Tech_BRIL_bit33,-1,,
+L1Tech_BRIL_bit32,-1,,
+L1Tech_BRIL_bit30,-1,,
+L1Tech_BRIL_bit37,-1,,
+L1Tech_BRIL_bit36,-1,,
+L1Tech_BRIL_bit35,-1,,
+L1Tech_BRIL_bit34,-1,,
+L1Tech_BRIL_bit41,-1,,
+L1_AlwaysTrue99,1,,
+******************************l1steamonly
+,,L1_SingleIsoEG28er,1
