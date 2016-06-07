@@ -7,4 +7,3 @@ source set.(c)sh
 python compareWBMTriggerRates2.py
 
 You can also change some parameters in compareWBMTriggerRates2.py.
-
