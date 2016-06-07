@@ -11,12 +11,14 @@ def comparison(Runnr,Lumi,input_file,output_dir):
     P_hltrates=True            #
     P_l1rates=False             #
     pu_write=False
-    
+
+# get rate infomation from file1, need column of hltpath, rate, dataset    
     file1_hltpath = 1          #HLT_
     file1_hltrate = 4          #hlt rate
     file1_hltrateErr = 6       #hlt rate error
     file1_dataset = 2          #l1 prescale
     
+# not use file2
     file2_l1path = 1           #L1_
     file2_l1rate = 3           #l1 rate
     file2_l1rateErr = 5        #l1 rate error
@@ -49,14 +51,17 @@ def comparison(Runnr,Lumi,input_file,output_dir):
     '2e33':2,
     '5e33':0
     }
+# get L1 seed information from file3, need hlt name, l1 seed.
     file3_name = 'GRun_v113.tsv'
     file3_hltpath = 2           #HLT_
     file3_l1seed = [5,6,7]           #L1_seed
     
+# get L1 PS information from file4, need l1 name, l1 PS
     file4_name = 'L1Menu.csv'
     file4_l1path = 1           #L1_
     file4_l1prescale = 5      #l1 prescale
  
+# get HLT PS information from file5, need hlt name, hlt PS
     file5_name = 'HLTMenu.csv'
     file5_hltpath = 0           #HLT_
     file5_hltprescale = 4      #hlt prescale
@@ -73,7 +78,11 @@ def comparison(Runnr,Lumi,input_file,output_dir):
     lumidic={
     '1e33':8,
     '2e33':7,
-    '5e33':5}
+    '3.5e33':6,
+    '5e33':5,
+    '7e33':4,
+    '1e34':3,
+    }
     lumicolumn=lumidic[index_lumi]
     #******************************************************************************************
     def getJson(runnr,jfile):
