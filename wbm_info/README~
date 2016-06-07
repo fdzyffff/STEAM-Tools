@@ -1,0 +1,14 @@
+You can copy this folder to a CMSSW area and then after cmsenv do:
+
+source set.csh
+python compareWBMTriggerRates.py 254232 --steamRates steam7e33Spring15_dev.csv --targetLumi 7000 --minLS 1 --maxLS 81 > test_254232.csv
+
+Then you have a csv file with all the rate comparisons.
+
+Currently it is pretty rough and several improvements could be made. It doesn't take into account the L1
+prescale used in the STEAM prediction (it assumes that it it he 7e33 L1 prescale online). Also, it doesn't try
+to do anything smart for paths like HLT_Random, for example, that obviously don't scale with luminosity.
+Also, it uses the "rate" number from WBM and not the counts, therefore the WBM number is rounded to
+two decimals which makes extrapolations of paths with rates like 0.01 extremely imprecise. And I'm sure
+you'll find more things like this if you start looking into it, we just haven't had the time to develop these
+things.

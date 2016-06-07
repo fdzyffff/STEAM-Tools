@@ -1,0 +1,5 @@
+You can copy this folder to a CMSSW area and then after cmsenv do:
+
+source set.(c)sh
+
+python wbminfo.py
