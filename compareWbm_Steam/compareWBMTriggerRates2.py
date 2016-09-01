@@ -1,12 +1,15 @@
 import os
 import argparse
 import copy
+from math import *
 from cernSSOWebParser import parseURLTables
 
 #******************************************************************************************
-def comparison(Runnr,Lumi,input_file,output_dir):
+def comparison(Runnr,Lumi,input_file,output_dir,steamLumi):
     _runnr=Runnr
     index_lumi=Lumi               #
+    PsNorm = 7.*107./2.
+    PSforSteam = False
     
     P_hltrates=True            #
     P_l1rates=False             #
@@ -17,6 +20,7 @@ def comparison(Runnr,Lumi,input_file,output_dir):
     file1_hltrate = 4          #hlt rate
     file1_hltrateErr = 6       #hlt rate error
     file1_dataset = 2          #l1 prescale
+    file1_group = 3          #l1 prescale
     
 # not use file2
     file2_l1path = 1           #L1_
@@ -52,22 +56,28 @@ def comparison(Runnr,Lumi,input_file,output_dir):
     '5e33':0
     }
 # get L1 seed information from file3, need hlt name, l1 seed.
-    file3_name = 'GRun_v113.tsv'
-    file3_hltpath = 2           #HLT_
-    file3_l1seed = [5,6,7]           #L1_seed
+    file3_name = 'L1Seed.tsv'
+    file3_hltpath = 0           #HLT_
+    file3_l1seed = [18]         #L1_seed
     
 # get L1 PS information from file4, need l1 name, l1 PS
-    file4_name = 'L1Menu.csv'
+    file4_name = 'L1_PS.csv'
     file4_l1path = 1           #L1_
-    file4_l1prescale = 5      #l1 prescale
+    file4_l1prescale = 5     #l1 prescale
  
 # get HLT PS information from file5, need hlt name, hlt PS
-    file5_name = 'HLTMenu.csv'
-    file5_hltpath = 0           #HLT_
-    file5_hltprescale = 4      #hlt prescale
+    file5_name = 'outputTSV.tsv'
+    file5_hltpath = 2           #HLT_
+    file5_hltprescale = 8       #hlt prescale
+
+# get HLT Count information from file6, need hlt name, hlt Count
+    file6_name = 'outputCounts.tsv'
+    file6_hltpath = 1           #HLT_
+    file6_hltcount = 5      #hlt prescale
+
     #******************************************************************************************
     file1name = 'HLT.csv'
-    spreadSheetHeader1="Path,Dataset,L1Path,L1Prescale("+index_lumi+"),Steam L1path,Steam L1Prescale,WBM hltPrescale("+index_lumi+"),Steam hltPrescale,,Data Rate (Hz),,,Steam Rate (Hz),,,Bias(data-steam)\n"
+    spreadSheetHeader1="Path,Group,Dataset,L1Path,L1Prescale("+index_lumi+"),Steam L1path,Steam L1Prescale,WBM hltPrescale("+index_lumi+"),Steam hltPrescale,Wbm Count,Wbm prescaled Count,Steam Count,,Data Rate (Hz),,,Steam Rate (Hz),,abs(Data-Steam)(Hz),,Bias : (data-steam)/max(data;steam),,Pull\n"
     #spreadSheetHeader1="Path,L1Path,L1Prescale(2e33),Steam L1path,Steam L1Prescale,totalprescale,WBMhltPrescale("+index_lumi+"),Steam hltPrescale,,Data Rate (Hz),,,Data Rate scaled (Hz),,,Steam Rate (Hz),,,Steam Rate rehltscaled(Hz),,,Steam rate l1prescaled,,,Bias(datascaled-steam),,,Bias(data-steam)\n"
     
     file2name = 'L1.csv'
@@ -76,14 +86,19 @@ def comparison(Runnr,Lumi,input_file,output_dir):
     file3name = 'specficHLTpaths.csv'
     #******************************************************************************************
     lumidic={
-    '1e33':8,
-    '2e33':7,
-    '3.5e33':6,
-    '5e33':5,
-    '7e33':4,
-    '1e34':3,
+    '1e33':10,
+    '2e33':9,
+    '3.5e33':8,
+    '5e33':7,
+    '7.5e33':6,
+    '8.5e33':5,
+    '9.5e33':4,
+    '1.05e34':3,
+    '1.15e34':2,
+    '1.45e34':1,
+    '1.6e34':0,
     }
-    lumicolumn=lumidic[index_lumi]
+    lumicolumn=2+lumidic[index_lumi]
     #******************************************************************************************
     def getJson(runnr,jfile):
         import json
@@ -139,8 +154,9 @@ def comparison(Runnr,Lumi,input_file,output_dir):
         if n_lumi != nLS:
             print "warning! miss lumi section!"
         avePU = sumPU/sum_lumi
+        aveLumi = float(sum_lumi)/float(nLS)
     
-        return avePU
+        return avePU, aveLumi
                 
     def MatchL1Seed(l1seed,l1predic):
         tmp_list=[]
@@ -189,6 +205,18 @@ def comparison(Runnr,Lumi,input_file,output_dir):
             error = math.sqrt(error)*100
         return bia, error
     
+    def my_Pull(no1,no2,e2):
+        my_pull = ''
+        if no1 == 0 and no2 == 0:
+            my_pull = 'N/A'
+        elif no1 != 0 and no2 == 0:
+            my_pull = 'No rates in Steam'
+        elif no1 == 0 and no2 != 0:
+            my_pull = 'No rates in WBM'
+        else:
+            my_pull = str(math.fabs(no1 - no2) / e2)
+        return my_pull
+
     def getPSAndInstLumis(runnr):
         url="https://cmswbm.web.cern.ch/cmswbm/cmsdb/servlet/LumiSections?RUN=%s" % runnr 
         tables=parseURLTables(url)
@@ -326,6 +354,7 @@ def comparison(Runnr,Lumi,input_file,output_dir):
         l1_hlt_mode=tables[1][1][3]
     
         url="https://cmswbm.web.cern.ch/cmswbm/cmsdb/servlet/TriggerMode?KEY=%s" % (l1_hlt_mode)
+        #print url
         tables=parseURLTables(url)
     
         prescales={}
@@ -363,15 +392,29 @@ def comparison(Runnr,Lumi,input_file,output_dir):
         import csv
 
         hltpredic={}
-        with open(steamFile) as csvfile:
-            steamReader=csv.reader(csvfile)
-            for line in steamReader:
-                path = line[file5_hltpath].split("_v")[0]
-                path = path.strip()
+        if '.csv' in steamFile:
+            with open(steamFile) as csvfile:
+                steamReader=csv.reader(csvfile)
+                for line in steamReader:
+                    path = line[file5_hltpath].split("_v")[0]
+                    path = path.strip()
+    
+                    if path.find("HLT_")!=-1:
+                        hltpre = int(line[file5_hltprescale])
+                        hltpredic[path]=hltpre
+        if '.tsv' in steamFile:
+            tmp_file = open(steamFile,'r')
+            for Line in tmp_file:
+                line = Line.split('\t')
+                try:
+                    path = line[file5_hltpath].split("_v")[0]
+                    path = path.strip()
 
-                if path.find("HLT_")!=-1:
-                    hltpre = int(line[file5_hltprescale])
-                    hltpredic[path]=hltpre
+                    if path.find("HLT_")!=-1:
+                        hltpre = int(float(line[file5_hltprescale].replace('\r','').replace('\n','')))
+                        hltpredic[path]=hltpre
+                except:
+                    pass
         return hltpredic
     
     def getHLTmenuSteam(steamFile):
@@ -480,6 +523,7 @@ def comparison(Runnr,Lumi,input_file,output_dir):
                         rateErr = float(line[file1_hltrateErr])
                         prescale = 0#int(line[file1_hltprescale]) #hltprescales[path] #int(line[0])
                         dataset = line[file1_dataset]
+                        group = line[file1_group]
                         if path in HLTmenu:
                             l1path = HLTmenu[path][0]
                             l1pre = HLTmenu[path][1]
@@ -498,16 +542,52 @@ def comparison(Runnr,Lumi,input_file,output_dir):
                         l1pretotal = -1.
                         hltprescale = -1
                         dataset='null'
-                    data[path]=(rate,rateErr,prescale,l1path,l1pre,dataset,hltprescale)
+                        group='null'
+                    data[path]=(rate,rateErr,prescale,l1path,l1pre,dataset,hltprescale,group)
         return data,L1predic
+    
+    def getHLTSteamCount(steamFile):
+        data={}
+        predic={}
+        import csv
+    
+        if '.csv' in steamFile:
+            with open(steamFile) as csvfile:
+                steamReader=csv.reader(csvfile)
+                for line in steamReader:
+                    path = line[file6_hltpath].split("_v")[0]
+                    path = path.strip()
+        
+                    if path.find("HLT_")!=-1:
+                        try:
+                            count = int(line[file6_hltcount])
+                        except:
+                            count = -1
+                        data[path]=(count)
+      
+        if '.tsv' in steamFile:
+            file_hlt=open(steamFile,'r')
+            for Line in file_hlt:
+                line=Line.split('\t')
+                path = line[file6_hltpath].split("_v")[0]
+                path = path.strip()
+    
+                if path.find("HLT_")!=-1:
+                    try:
+                        count = int(float(line[file6_hltcount]))
+                    except:
+                        print line[file6_hltcount]
+                        count = -1
+                    data[path]=(count)
+        return data
     
     
     
     
     jsonfile=getJson(_runnr,_json)
-    avePU=getPU(_runnr,jsonfile)
+    avePU, aveLumi=getPU(_runnr,jsonfile)
     
-    targetLumi = int(index_lumi.split('e')[0])*(10**(int(index_lumi.split('e')[1])-30))
+    targetLumi = float(index_lumi.split('e')[0])*(10**(int(index_lumi.split('e')[1])-30))
     
     print "run No : ",_runnr
     print "json : ",jsonfile
@@ -523,18 +603,25 @@ def comparison(Runnr,Lumi,input_file,output_dir):
     
     print "average pile up:",avePU
     print "*"*30
+    print "average Luminosity:",aveLumi
+    print "*"*30
     
     if P_hltrates:
         HLTsteamRates, l1steam=getHLTSteamRates(_steamRates)
+        HLTsteamCount=getHLTSteamCount(file6_name)
         hltRates=getTriggerRates(_runnr,jsonfile)
     
     if P_l1rates:
         L1steamRates=getL1SteamRates(_steamL1Rates)
     #    l1Rates=getL1Rates(args.runnr,args.minLS,args.maxLS)
     
-    
-    lumiScale=1.
-    #if targetLumi!=-1: lumiScale=targetLumi/float(aveLumi)
+    if steamLumi <= 0 : 
+        lumiScale=1.
+    else:
+        lumiScale = aveLumi / steamLumi
+    print "lumi sf for steam:",lumiScale
+    print "*"*30
+
     hltPrescales=getHLTPrescales(_runnr)
     l1Prescales=getL1Prescales(_runnr)
 #    try:
@@ -594,16 +681,29 @@ def comparison(Runnr,Lumi,input_file,output_dir):
         
             steamRate=0
             steamRateErr=0
+            steamcount=0
+            steamcountErr=0
             dataset='null'
+            group='null'
             hltPrescaleSteam=-1
             hltprescaled=-1
             pretotal=-1
         
             if path in HLTsteamRates:
                 steamRate=HLTsteamRates[path][0]
+                steamRate*=lumiScale
                 steamRateErr=HLTsteamRates[path][1]
+                steamRateErr*=lumiScale
                 hltPrescaleSteam=int(HLTsteamRates[path][6])
+#                if PSforSteam and hltPrescaleSteam!=0:
+#                    steamRate/=hltPrescaleSteam
+#                    steamRateErr/=hltPrescaleSteam
+                steamcount=int(HLTsteamCount[path])
+                if PSforSteam and hltPrescaleSteam!=0:
+                    steamcount=int(float(steamcount)/float(hltPrescaleSteam))
+                steamcountErr=0
                 dataset='"'+HLTsteamRates[path][5]+'"'
+                group='"'+HLTsteamRates[path][7]+'"'
                 if HLTsteamRates[path][6]!=0:
                     hltprescaled=float(HLTsteamRates[path][2])/float(HLTsteamRates[path][6])
                 SteamL1path+=HLTsteamRates[path][3]
@@ -613,7 +713,12 @@ def comparison(Runnr,Lumi,input_file,output_dir):
         
             rate =rates[3]
             rateErr=0
-            if rates[2]!=0: rateErr=math.sqrt(rates[2])/rates[2]*rate
+            ncount=0
+            ncountPSed=0
+            if rates[2]!=0: 
+                rateErr=math.sqrt(rates[2])/rates[2]*rate
+                ncount = rates[2]
+                ncountPSed = int(float(ncount)/PsNorm)
     #        try:
     #            rateScaled=rates[3]*lumiScale
     #            rateScaledErr=(rateErr/rates[3])*rateScaled
@@ -638,6 +743,8 @@ def comparison(Runnr,Lumi,input_file,output_dir):
         
 #            relDiff,relDiffErr=Bias(ratePred,rate,ratePredErr,rateErr)
             relDiff,relDiffErr=Bias(steamRate,rate,steamRateErr,rateErr)
+            abs_rate = fabs(rate-steamRate)
+            my_pull = my_Pull(rate, steamRate, steamRateErr)
     #        if steamRate!=0:
     #            relDiff = rateDiff/ratePred
     #            relDiffErr = rateScaledErr**2/ratePred**2 + rateScaled**2*ratePredErr**2/ratePred**4
@@ -647,19 +754,13 @@ def comparison(Runnr,Lumi,input_file,output_dir):
            
             HLTdic={}
 #            HLTdic[path]=(L1path,L1pre,SteamL1path,SteamL1pre,int(pretotal),wbmhltPrescale,hltPrescaleSteam,rate,rateErr,steamRate,steamRateErr,steamRateHLTPred,steamRateHLTPredErr,relDiff,relDiffErr)
-            HLTdic[path]=(dataset,L1path,L1pre,SteamL1path,SteamL1pre,wbmhltPrescale,hltPrescaleSteam,rate,rateErr,steamRate,steamRateErr,relDiff,relDiffErr)
+            HLTdic[path]=(group,dataset,L1path,L1pre,SteamL1path,SteamL1pre,wbmhltPrescale,hltPrescaleSteam,ncount,ncountPSed,steamcount,rate,rateErr,steamRate,steamRateErr,abs_rate,relDiff,relDiffErr,my_pull)
             HLTlist.append(HLTdic)
         #print HLT comparision
-        spreadSheetStr1="%s,%s,%s,%s,%s,%s,%d,%d,%.2f,+/-,%.2f,%.2f,+/-,%.2f,%.2f%%,+/-,%.2f%%\n" 
+        spreadSheetStr1="%s,%s,%s,%s,%s,%s,%s,%d,%d,%d,%d,%d,%.2f,+/-,%.2f,%.2f,+/-,%.2f,%.5f,%.2f%%,+/-,%.2f%%,%s\n" 
         for i in range(len(HLTlist)):
             for path in HLTlist[i]:
-                if HLTlist[i][path][5]==HLTlist[i][path][6]:
-                    filetowrite1.write(spreadSheetStr1 %(path,HLTlist[i][path][0],HLTlist[i][path][1],HLTlist[i][path][2],HLTlist[i][path][3],HLTlist[i][path][4],HLTlist[i][path][5],HLTlist[i][path][6],HLTlist[i][path][7],HLTlist[i][path][8],HLTlist[i][path][9],HLTlist[i][path][10],HLTlist[i][path][11],HLTlist[i][path][12]))
-        
-        for i in range(len(HLTlist)):
-            for path in HLTlist[i]:
-                if HLTlist[i][path][5]!=HLTlist[i][path][6]:
-                    filetowrite1.write(spreadSheetStr1 %(path,HLTlist[i][path][0],HLTlist[i][path][1],HLTlist[i][path][2],HLTlist[i][path][3],HLTlist[i][path][4],HLTlist[i][path][5],HLTlist[i][path][6],HLTlist[i][path][7],HLTlist[i][path][8],HLTlist[i][path][9],HLTlist[i][path][10],HLTlist[i][path][11],HLTlist[i][path][12]))
+                filetowrite1.write(spreadSheetStr1 %(path,HLTlist[i][path][0],HLTlist[i][path][1],HLTlist[i][path][2],HLTlist[i][path][3],HLTlist[i][path][4],HLTlist[i][path][5],HLTlist[i][path][6],HLTlist[i][path][7],HLTlist[i][path][8],HLTlist[i][path][9],HLTlist[i][path][10],HLTlist[i][path][11],HLTlist[i][path][12],HLTlist[i][path][13],HLTlist[i][path][14],HLTlist[i][path][15],HLTlist[i][path][16],HLTlist[i][path][17],HLTlist[i][path][18]))
         
         
         #print L1 comparision
@@ -678,23 +779,23 @@ def comparison(Runnr,Lumi,input_file,output_dir):
                 del l1wbmonly[l]
         
         
-        filetowrite1.write('*'*30+'\n')
-        filetowrite1.write('L1path(wbm),L1prescale(wbm),L1path(steam),L1prescale(steam)\n')
-        filetowrite1.write('*'*30+'L1 path with same prescale\n')
-        for l in l1same:
-            filetowrite1.write('%s,%s,%s,%s\n'%(l,l1same[l],l,l1same[l]))
-        filetowrite1.write('*'*30+'L1 path with different prescale\n')
-        for l in l1diff:
-            filetowrite1.write('%s,%s,%s,%s\n'%(l,l1diff[l][0],l,l1diff[l][1]))
-        filetowrite1.write('*'*30+'l1wbmonly\n')
-        for l in l1wbmonly:
-            if l!='':
-                filetowrite1.write('%s,%s,,\n'%(l,l1wbmonly[l])) 
-        filetowrite1.write('*'*30+'l1steamonly\n')
-        for l in l1steamonly:
-            filetowrite1.write(',,%s,%s\n'%(l,l1steamonly[l]))
-        
-        
+#        filetowrite1.write('*'*30+'\n')
+#        filetowrite1.write('L1path(wbm),L1prescale(wbm),L1path(steam),L1prescale(steam)\n')
+#        filetowrite1.write('*'*30+'L1 path with same prescale\n')
+#        for l in l1same:
+#            filetowrite1.write('%s,%s,%s,%s\n'%(l,l1same[l],l,l1same[l]))
+#        filetowrite1.write('*'*30+'L1 path with different prescale\n')
+#        for l in l1diff:
+#            filetowrite1.write('%s,%s,%s,%s\n'%(l,l1diff[l][0],l,l1diff[l][1]))
+#        filetowrite1.write('*'*30+'l1wbmonly\n')
+#        for l in l1wbmonly:
+#            if l!='':
+#                filetowrite1.write('%s,%s,,\n'%(l,l1wbmonly[l])) 
+#        filetowrite1.write('*'*30+'l1steamonly\n')
+#        for l in l1steamonly:
+#            filetowrite1.write(',,%s,%s\n'%(l,l1steamonly[l]))
+#        
+#        
         filetowrite1.close()
     #*****************************************************************************************************************
     #for path in l1 Rates:
@@ -788,7 +889,7 @@ def comparison(Runnr,Lumi,input_file,output_dir):
     
     
     
-comparison(274241,'5e33','rates_GRun_V97_5e33_GRun_V97_1_matrixRates.tsv','274241')    
+comparison(279116,'9.5e33','output.tsv','279116',-10000)    
     
     
     
