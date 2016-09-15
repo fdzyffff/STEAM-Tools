@@ -1,0 +1,11 @@
+# Document for compare tool
+befor using this tool, some table should be ready. Which provide information about steam rate, prescale, L1 seed and L1 prescale.
+step1 
+  from line 19 to line 23, set the column of path, rates and error in steam rate file (the steam rate file neam is set in the last line)
+step2
+  from line 59 to line 77, there are some parameters for file3_, file4_, file5_ and file6_, file3 is for L1 seed, file4 is for individual L1 trigger prescale, file5 is for HLT trigger prescale, file6 is for HLT Count.
+step3
+  go to last line, point out the run number you want to compare with in wbm. and which PS column in wbm is used.(note tha the run has to be in the json.txt so that code can get Lumi Section information)
+then
+  python compareWBMTriggerRates2.py
+  comparison tabel will be produced in folder which you set in the last line.
