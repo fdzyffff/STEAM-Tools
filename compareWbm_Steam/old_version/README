@@ -4,7 +4,6 @@ You can copy this folder to a CMSSW area and then after cmsenv do:
 
 source set.(c)sh
 
-set input steam files and point out the relative columns in compareWBMTriggerRates.py
+python compareWBMTriggerRates2.py
 
-python compareWBMTriggerRates.py
-
+You can also change some parameters in compareWBMTriggerRates2.py.
