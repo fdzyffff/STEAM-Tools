@@ -64,20 +64,7 @@ class comparison():
     
     file3name = 'specficHLTpaths.csv'
     #******************************************************************************************
-    lumidic={
-    '1e33':10,
-    '2e33':9,
-    '3.5e33':8,
-    '5e33':7,
-    '7.5e33':6,
-    '8.5e33':5,
-    '9.5e33':4,
-    '1.05e34':3,
-    '1.15e34':2,
-    '1.45e34':1,
-    '1.6e34':0,
-    }
-    lumicolumn=2+lumidic[index_lumi]
+    lumicolumn=0
     #******************************************************************************************
 #    def getTableFromFile(self,filename):
 #        table=[]
@@ -510,6 +497,20 @@ class comparison():
     
     
     def comparisonRun(self):
+        lumidic={
+        '1e33':10,
+        '2e33':9,
+        '3.5e33':8,
+        '5e33':7,
+        '7.5e33':6,
+        '8.5e33':5,
+        '9.5e33':4,
+        '1.05e34':3,
+        '1.15e34':2,
+        '1.45e34':1,
+        '1.6e34':0,
+        }
+        self.lumicolumn=2+lumidic[self.index_lumi]
         jsonfile=self.getJson(self._runnr,self.json_name)
         avePU, aveLumi=self.getPU(self._runnr,jsonfile)
         
