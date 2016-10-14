@@ -6,8 +6,9 @@ c1 = getRateInformation("wbm")
 c1._runnr = "279116"
 c1.output_dir = "example_outputFile"
 c1.json_name = "json.txt"
-c1.index_lumi = "9.5e33"
+c1.index_lumi = "1.25e34"
 c1.useLumiScale = False
+c1.lumilist = ["emergency","1.25e34","1.15e34","1.05e34","9.5e33","8.5e33","7.5e33","5e33","3.5e33","2e33","1e33","7e32","5e32","3.5e32","2e32"]
 #c1.target_lumi = "9.5e33"
 #c1.useLumiScale = True
 
