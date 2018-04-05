@@ -2,18 +2,15 @@ import os
 import argparse
 import copy
 import math
-from cernSSOWebParser import parseURLTables
+from cernSSOWebParser2 import parseURLTables
 
 #******************************************************************************************
 class getRateInformation():
     def __init__(self, type_in):
         self.type_in = type_in
-    def setup(self,Runnr,Lumi,file1_name,output_dir,steamLumi):
-        return 0
     lumilist=['1.6e34','1.45e34','1.15e34','1.05e34','9.5e33','8.5e33','7.5e33','5e33','3.5e33','2e33','1e33']
 
     _runnr = "000000"
-    output_dir="./"
     index_lumi="1e33"               
     input_lumi="-1e33"             
     target_lumi="1e33"            
@@ -92,10 +89,11 @@ class getRateInformation():
     def getJson(self,runnr,jfile):
         import json
         file1=open(jfile,'r')
+        tmp_text = ""
         inp1={}
         for line1 in file1:
-            inp1 = json.loads(line1)
-            break
+            tmp_text += line1.replace("\n","")
+        inp1 = json.loads(tmp_text)
         for run in inp1:
             if str(runnr) in run:
                 jsonfile=inp1[run]
@@ -105,11 +103,13 @@ class getRateInformation():
     
     def getPU(self,runnr,jsonfile):
         
-        url="https://cmswbm.web.cern.ch/cmswbm/cmsdb/servlet/RunSummary?RUN=%s&DB=default" % (runnr)
+        url="https://cmswbm.cern.ch/cmsdb/servlet/RunSummary?RUN=%s&DB=default" % (runnr)
         tables=parseURLTables(url)
+        #print url
+        #print tables
         lhcfill_key=tables[3][14][1]
     
-        url="https://cmswbm.web.cern.ch/cmswbm/cmsdb/servlet/FillReport?FILL=%s" % (lhcfill_key)
+        url="https://cmswbm.cern.ch/cmsdb/servlet/FillReport?FILL=%s" % (lhcfill_key)
         tables=parseURLTables(url)
         nbunch=int(tables[3][18][1])
 
@@ -180,7 +180,7 @@ class getRateInformation():
      
 
     def getPSAndInstLumis(self,runnr):
-        url="https://cmswbm.web.cern.ch/cmswbm/cmsdb/servlet/LumiSections?RUN=%s" % runnr 
+        url="https://cmswbm.cern.ch/cmsdb/servlet/LumiSections?RUN=%s" % runnr 
         tables=parseURLTables(url)
     
         psAndInstLumis={}
@@ -218,7 +218,7 @@ class getRateInformation():
         return hltRates
     
     def getpartTriggerRates(self,runnr,minLS,maxLS,totalLS):
-        url="https://cmswbm.web.cern.ch/cmswbm/cmsdb/servlet/HLTSummary?fromLS=%s&toLS=%s&RUN=%s" % (minLS,maxLS,runnr)
+        url="https://cmswbm.cern.ch/cmsdb/servlet/HLTSummary?fromLS=%s&toLS=%s&RUN=%s" % (minLS,maxLS,runnr)
         tables=parseURLTables(url)
     
         hltpartRates={}
@@ -232,11 +232,11 @@ class getRateInformation():
     
     
     def getL1Rates(self,runnr,minLS,maxLS):
-        url="https://cmswbm.web.cern.ch/cmswbm/cmsdb/servlet/RunSummary?RUN=%s&DB=default" % (runnr)
+        url="https://cmswbm.cern.ch/cmsdb/servlet/RunSummary?RUN=%s&DB=default" % (runnr)
         tables=parseURLTables(url)
         l1_key_mode=tables[1][1][4]
     
-        url="https://cmswbm.web.cern.ch/cmswbm/cmsdb/servlet/L1Summary?fromLS=%s&toLS=%s&RUN=%s&KEY=%s" % (minLS,maxLS,runnr,l1_key_mode)
+        url="https://cmswbm.cern.ch/cmsdb/servlet/L1Summary?fromLS=%s&toLS=%s&RUN=%s&KEY=%s" % (minLS,maxLS,runnr,l1_key_mode)
         tables=parseURLTables(url)
     
         l1Rates={}
@@ -250,7 +250,7 @@ class getRateInformation():
         return l1Rates
     
     def getL1Prescales(self,runnr):
-        url="https://cmswbm.web.cern.ch/cmswbm/cmsdb/servlet/PrescaleSets?RUN=%s" % (runnr)
+        url="https://cmswbm.cern.ch/cmsdb/servlet/PrescaleSets?RUN=%s" % (runnr)
         tables=parseURLTables(url)
     
         prescales={}
@@ -268,11 +268,11 @@ class getRateInformation():
     
     
     def getHLTPrescales(self,runnr):
-        url="https://cmswbm.web.cern.ch/cmswbm/cmsdb/servlet/RunSummary?RUN=%s&DB=default" % (runnr)
+        url="https://cmswbm.cern.ch/cmsdb/servlet/RunSummary?RUN=%s&DB=default" % (runnr)
         tables=parseURLTables(url)
         l1_hlt_mode=tables[1][1][3]
     
-        url="https://cmswbm.web.cern.ch/cmswbm/cmsdb/servlet/TriggerMode?KEY=%s" % (l1_hlt_mode)
+        url="https://cmswbm.cern.ch/cmsdb/servlet/TriggerMode?KEY=%s" % (l1_hlt_mode)
         #print url
         tables=parseURLTables(url)
     
@@ -733,10 +733,10 @@ class comparison():
                 my_pull = self.my_Pull(hlt_rate_1,hlt_rate_2 , max(hlt_rateErr_1,hlt_rateErr_2))
            
                     
-            if dic_1["info"]["type"]=="wbm" and dic_2["info"]["type"]=="steam":
-                filetowrite1.write(spreadSheetStr1 %(path,group_2,dataset_2,l1_seed_1,l1_pre_1,l1_seed_2,l1_pre_2,hlt_pre_1,hlt_pre_2,hlt_count_1,hlt_count_2,hlt_rate_1,hlt_rateErr_1,hlt_rate_2,hlt_rateErr_2,abs_rate,relDiff,relDiffErr,my_pull))
-            if dic_1["info"]["type"]=="steam" and dic_2["info"]["type"]=="steam":
-                filetowrite1.write(spreadSheetStr1 %(path,group_1,dataset_1,group_2,dataset_2,l1_seed_1,l1_pre_1,l1_seed_2,l1_pre_2,hlt_pre_1,hlt_pre_2,hlt_count_1,hlt_count_2,hlt_rate_1,hlt_rateErr_1,hlt_rate_2,hlt_rateErr_2,abs_rate,relDiff,relDiffErr,my_pull))
-            if dic_1["info"]["type"]=="wbm" and dic_2["info"]["type"]=="wbm":
-                filetowrite1.write(spreadSheetStr1 %(path,l1_seed_1,l1_pre_1,l1_seed_2,l1_pre_2,hlt_pre_1,hlt_pre_2,hlt_count_1,hlt_count_2,hlt_rate_1,hlt_rateErr_1,hlt_rate_2,hlt_rateErr_2,abs_rate,relDiff,relDiffErr,my_pull))
+                if dic_1["info"]["type"]=="wbm" and dic_2["info"]["type"]=="steam":
+                    filetowrite1.write(spreadSheetStr1 %(path,group_2,dataset_2,l1_seed_1,l1_pre_1,l1_seed_2,l1_pre_2,hlt_pre_1,hlt_pre_2,hlt_count_1,hlt_count_2,hlt_rate_1,hlt_rateErr_1,hlt_rate_2,hlt_rateErr_2,abs_rate,relDiff,relDiffErr,my_pull))
+                if dic_1["info"]["type"]=="steam" and dic_2["info"]["type"]=="steam":
+                    filetowrite1.write(spreadSheetStr1 %(path,group_1,dataset_1,group_2,dataset_2,l1_seed_1,l1_pre_1,l1_seed_2,l1_pre_2,hlt_pre_1,hlt_pre_2,hlt_count_1,hlt_count_2,hlt_rate_1,hlt_rateErr_1,hlt_rate_2,hlt_rateErr_2,abs_rate,relDiff,relDiffErr,my_pull))
+                if dic_1["info"]["type"]=="wbm" and dic_2["info"]["type"]=="wbm":
+                    filetowrite1.write(spreadSheetStr1 %(path,l1_seed_1,l1_pre_1,l1_seed_2,l1_pre_2,hlt_pre_1,hlt_pre_2,hlt_count_1,hlt_count_2,hlt_rate_1,hlt_rateErr_1,hlt_rate_2,hlt_rateErr_2,abs_rate,relDiff,relDiffErr,my_pull))
 
